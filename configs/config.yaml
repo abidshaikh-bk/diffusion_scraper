@@ -1,0 +1,3 @@
+filtering:
+  min_duration_sec: 120
+  max_duration_sec: 1800
