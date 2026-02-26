@@ -1,0 +1,188 @@
+# Discovery runs on "queries" and pushes discovered video URLs into the Google Sheet as PENDING.
+# NOTE:
+# - youtube uses yt-dlp ytsearch (no API key).
+# - vimeo/dailymotion use Playwright scraping of their own search pages.
+# - other platforms are included as toggles and will work once their providers are implemented.
+
+limits:
+  # Cap URLs enqueued per query across all platforms combined
+  per_query_max_urls: 50
+
+  # Optional: stop whole run after this many URLs enqueued (0 = unlimited)
+  global_max_urls: 0
+
+  # If true, skip enqueueing URLs already present in the sheet
+  dedupe_against_sheet: true
+
+  # Fail-open behaviour: continue even if one platform provider errors
+  continue_on_provider_error: true
+
+platform_search:
+  youtube:
+    enabled: true
+    search_engine_name: "YouTubeSearch"
+    max_results_per_query: 30
+    # If you want to bias longer training, set min_duration filter later (metadata stage)
+
+  vimeo:
+    enabled: true
+    search_engine_name: "VimeoSearch"
+    max_pages: 2
+
+  dailymotion:
+    enabled: true
+    search_engine_name: "DailymotionSearch"
+    max_pages: 2
+
+  # The following are placeholders for future providers
+  facebook_watch:
+    enabled: false
+    search_engine_name: "FacebookSearch"
+    max_pages: 1
+
+  instagram:
+    enabled: false
+    search_engine_name: "InstagramSearch"
+    max_pages: 1
+
+  tiktok:
+    enabled: false
+    search_engine_name: "TikTokSearch"
+    max_pages: 1
+
+  x:
+    enabled: false
+    search_engine_name: "XSearch"
+    max_pages: 1
+
+  linkedin:
+    enabled: false
+    search_engine_name: "LinkedInSearch"
+    max_pages: 1
+
+  reddit:
+    enabled: false
+    search_engine_name: "RedditSearch"
+    max_pages: 1
+
+  twitch:
+    enabled: false
+    search_engine_name: "TwitchSearch"
+    max_pages: 1
+
+  archive_org:
+    enabled: false
+    search_engine_name: "ArchiveSearch"
+    max_pages: 1
+
+  peertube:
+    enabled: false
+    search_engine_name: "PeerTubeSearch"
+    max_pages: 1
+
+  odysee:
+    enabled: false
+    search_engine_name: "OdyseeSearch"
+    max_pages: 1
+
+  rumble:
+    enabled: false
+    search_engine_name: "RumbleSearch"
+    max_pages: 1
+
+  bitchute:
+    enabled: false
+    search_engine_name: "BitChuteSearch"
+    max_pages: 1
+
+  streamable:
+    enabled: false
+    search_engine_name: "StreamableSearch"
+    max_pages: 1
+
+  veoh:
+    enabled: false
+    search_engine_name: "VeohSearch"
+    max_pages: 1
+
+  brightcove:
+    enabled: false
+    search_engine_name: "BrightcoveSearch"
+    max_pages: 1
+
+  jwplayer:
+    enabled: false
+    search_engine_name: "JWPlayerSearch"
+    max_pages: 1
+
+  wistia:
+    enabled: false
+    search_engine_name: "WistiaSearch"
+    max_pages: 1
+
+queries:
+  # --- Core emergency care / first aid / resuscitation ---
+  - "CPR training demonstration adult BLS"
+  - "CPR AED training step by step"
+  - "BLS training skills practice"
+  - "ACLS training algorithms demonstration"
+  - "PALS training pediatric resuscitation"
+  - "choking first aid heimlich maneuver training"
+  - "recovery position first aid training"
+  - "rescue breathing training demonstration"
+  - "basic airway management training BVM"
+  - "bag valve mask ventilation training"
+  - "oxygen administration training first aid"
+
+  # --- Bleeding / trauma / disaster response ---
+  - "bleeding control training tourniquet application"
+  - "hemorrhage control training wound packing"
+  - "trauma assessment primary survey training"
+  - "secondary survey patient assessment training"
+  - "splinting fractures first aid training"
+  - "burns first aid training"
+  - "shock management first aid training"
+  - "mass casualty incident triage training START triage"
+  - "disaster response drill medical training"
+
+  # --- Nursing / clinical skills (high-signal) ---
+  - "vital signs measurement training blood pressure"
+  - "pulse oximeter SpO2 measurement training"
+  - "patient assessment nursing skills training"
+  - "hand hygiene training healthcare WHO 5 moments"
+  - "aseptic technique training nursing"
+  - "sterile dressing change training"
+  - "wound dressing training sterile technique"
+  - "IV cannulation training demonstration"
+  - "venipuncture training phlebotomy"
+  - "intramuscular injection technique training"
+  - "subcutaneous injection technique training"
+  - "insulin injection training"
+  - "catheterization urinary catheter insertion training"
+  - "nasogastric tube insertion training NG tube"
+  - "suctioning technique training"
+  - "patient transfer safe moving handling training"
+
+  # --- Infection control / PPE / biosafety ---
+  - "PPE donning and doffing training"
+  - "infection prevention and control training"
+  - "isolation precautions training"
+  - "needle stick injury prevention training"
+  - "sharps disposal safety training"
+  - "biohazard spill response training"
+
+  # --- Workplace / safety training (medical-adjacent) ---
+  - "workplace safety training for healthcare workers"
+  - "emergency preparedness training workplace"
+  - "evacuation drill training hospital"
+  - "fire safety training healthcare facility"
+  - "basic fire fighting training extinguisher PASS"
+  - "hazard communication training SDS MSDS"
+  - "chemical safety training healthcare"
+  - "ergonomics back safety training patient handling"
+
+  # --- EMT / paramedic scenario drills ---
+  - "EMT training patient assessment scenario"
+  - "paramedic training trauma scenario simulation"
+  - "medical emergency scenario simulation training"
+  - "triage scenario training"

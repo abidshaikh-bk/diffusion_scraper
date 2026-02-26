@@ -1,0 +1,64 @@
+platforms:
+  - name: YouTube
+    domains: [youtube.com, www.youtube.com, youtu.be]
+
+  - name: Vimeo
+    domains: [vimeo.com, www.vimeo.com]
+
+  - name: Dailymotion
+    domains: [dailymotion.com, www.dailymotion.com, dai.ly]
+
+  - name: Facebook Watch
+    domains: [facebook.com, www.facebook.com, fb.watch]
+
+  - name: Instagram
+    domains: [instagram.com, www.instagram.com]
+
+  - name: TikTok
+    domains: [tiktok.com, www.tiktok.com]
+
+  - name: X
+    domains: [x.com, www.x.com, twitter.com, www.twitter.com]
+
+  - name: LinkedIn
+    domains: [linkedin.com, www.linkedin.com]
+
+  - name: Reddit
+    domains: [reddit.com, www.reddit.com]
+
+  - name: Twitch
+    domains: [twitch.tv, www.twitch.tv]
+
+  - name: Archive.org
+    domains: [archive.org, www.archive.org]
+
+  - name: PeerTube
+    domains: [peertube.tv, www.peertube.tv]
+    # Note: PeerTube is federated; add more instances as you discover them.
+
+  - name: Odysee
+    domains: [odysee.com, www.odysee.com]
+
+  - name: Rumble
+    domains: [rumble.com, www.rumble.com]
+
+  - name: Bitchute
+    domains: [bitchute.com, www.bitchute.com]
+
+  - name: Streamable
+    domains: [streamable.com, www.streamable.com]
+
+  - name: Veoh
+    domains: [veoh.com, www.veoh.com]
+
+  - name: Brightcove
+    domains: [players.brightcove.net]
+    # Many sites embed Brightcove; keep only if you plan to accept embedded player URLs.
+
+  - name: JW Player
+    domains: [jwplayer.com, cdn.jwplayer.com]
+    # Same note as above.
+
+  - name: Wistia
+    domains: [wistia.com, fast.wistia.net]
+    # Same note as above.

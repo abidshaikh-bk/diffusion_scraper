@@ -1,0 +1,170 @@
+include_keywords:
+  # High-signal training intent
+  - training
+  - tutorial
+  - course
+  - workshop
+  - practical
+  - hands-on
+  - demonstration
+  - demo
+  - step by step
+  - how to
+  - protocol
+  - procedure
+  - skills
+  - competency
+  - simulation
+  - scenario
+  - drill
+
+  # First aid / emergency response
+  - first aid
+  - cpr
+  - cardiopulmonary resuscitation
+  - bls
+  - basic life support
+  - acls
+  - advanced cardiovascular life support
+  - pals
+  - pediatric advanced life support
+  - choking
+  - heimlich
+  - rescue breathing
+  - recovery position
+  - airway management
+  - bag valve mask
+  - bvm
+  - oxygen therapy
+  - bleeding control
+  - hemorrhage control
+  - tourniquet
+  - wound care
+  - bandaging
+  - splinting
+  - fracture management
+  - burn care
+  - burns first aid
+  - shock management
+  - anaphylaxis
+  - epipen
+  - seizure first aid
+  - stroke recognition
+  - FAST stroke
+  - heart attack
+  - myocardial infarction
+  - triage
+  - emergency response
+  - disaster response
+  - mass casualty
+  - mci
+
+  # Clinical / nursing / EMT skills (high-signal)
+  - vital signs
+  - blood pressure measurement
+  - pulse oximetry
+  - spO2
+  - temperature measurement
+  - patient assessment
+  - primary survey
+  - secondary survey
+  - nursing skills
+  - emt training
+  - paramedic training
+  - iv cannulation
+  - venipuncture
+  - phlebotomy
+  - injection technique
+  - intramuscular injection
+  - subcutaneous injection
+  - insulin injection
+  - catheterization
+  - urinary catheter
+  - ng tube
+  - nasogastric tube
+  - suctioning
+  - wound dressing
+  - sterile dressing
+  - aseptic technique
+  - sterile technique
+  - hand hygiene
+  - ppe donning
+  - ppe doffing
+  - infection control
+  - isolation precautions
+  - cdc guidelines
+  - patient transfer
+  - safe lifting
+  - back safety
+  - ergonomics
+
+  # Workplace / safety training that overlaps medical
+  - workplace safety
+  - occupational safety
+  - hse training
+  - safety induction
+  - incident response
+  - emergency preparedness
+  - evacuation drill
+  - fire safety
+  - basic fire fighting
+  - hazard communication
+  - risk assessment
+  - safe work practices
+  - chemical safety
+  - msds
+  - sds
+  - biohazard
+  - sharps safety
+  - needle stick injury
+  - spill response
+
+exclude_keywords:
+  # Entertainment / irrelevant
+  - trailer
+  - teaser
+  - promo
+  - advertisement
+  - commercial
+  - highlights
+  - compilation
+  - funny
+  - prank
+  - meme
+  - reaction
+  - music video
+  - remix
+  - lyrics
+  - dance
+  - movie
+  - film
+  - episode
+  - full episode
+  - gameplay
+  - podcast
+
+  # News / commentary (usually not training)
+  - news
+  - interview
+  - debate
+  - documentary
+
+  # Potentially sensitive/graphic without training context (optional strictness)
+  - gore
+  - graphic
+  - autopsy
+  - surgery live
+  - cadaver
+
+include_logic:
+  # If true: require at least one include keyword match
+  require_any_include: true
+
+matching:
+  # Where to search keywords
+  use_title: true
+  use_description: true
+
+scoring:
+  # Optional: minimum number of include hits required (set 1 to be permissive)
+  min_include_hits: 1

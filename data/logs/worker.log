@@ -1,0 +1,1799 @@
+2026-02-26 16:41:45,262 | INFO | Worker started
+2026-02-26 16:42:21,488 | INFO | Worker started
+2026-02-26 16:42:21,488 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 16:43:46,353 | INFO | Worker started
+2026-02-26 16:43:46,354 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 16:43:48,624 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:43:48,653 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:43:53,020 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:43:53,020 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:43:54,899 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:43:54,899 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:43:58,273 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:43:58,280 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:44:03,393 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:44:03,393 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:44:08,849 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:44:08,850 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:12,474 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:12,479 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:44:15,854 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:44:15,855 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:17,652 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:44:17,653 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:44:20,903 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:20,911 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:44:24,568 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:44:24,569 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:26,850 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:44:26,851 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:44:30,188 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:30,193 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:44:33,591 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:44:33,591 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:35,934 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:44:35,935 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:44:39,234 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:39,239 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:44:42,693 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:44:42,694 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:45,301 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:44:45,301 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:44:48,578 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:48,585 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:44:51,736 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:44:51,737 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:54,845 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:44:54,846 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:44:58,156 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:44:58,164 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:01,777 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:01,778 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:04,181 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:45:04,182 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:45:07,334 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:07,340 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:10,626 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:10,626 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:13,708 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:45:13,709 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:45:17,104 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:17,111 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:20,581 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:20,582 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:23,881 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:45:23,882 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:45:27,341 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:27,348 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:30,947 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:30,948 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:32,764 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:45:32,764 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:45:36,045 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:36,051 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:39,196 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:39,196 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:42,620 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:45:42,621 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:45:45,808 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:45,812 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:48,969 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:48,969 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:51,829 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:45:51,830 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:45:55,296 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:45:55,300 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:45:58,500 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:45:58,501 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:01,188 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:01,189 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:04,331 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:04,336 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:46:07,983 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:46:07,984 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:10,042 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:10,042 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:13,312 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:13,319 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:46:16,800 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:46:16,801 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:18,667 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:18,668 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:21,921 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:21,928 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:46:25,301 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:46:25,302 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:28,078 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:28,079 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:31,445 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:31,451 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:46:34,949 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:46:34,950 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:37,359 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:37,360 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:40,553 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:40,559 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:46:43,542 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:46:43,543 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:47,422 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:47,430 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:50,697 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:50,705 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:46:54,696 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:46:54,696 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:56,387 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:46:56,388 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:46:59,541 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:46:59,549 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:03,869 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:03,870 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:05,740 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:47:05,741 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:47:09,129 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:09,134 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:12,611 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:12,612 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:15,660 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:47:15,661 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:47:18,720 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:18,725 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:22,295 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:22,295 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:24,548 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:47:24,549 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:47:27,710 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:27,715 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:31,093 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:31,094 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:33,830 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:47:33,831 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:47:37,176 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:37,180 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:40,442 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:40,443 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:42,262 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:47:42,263 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:47:45,481 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:45,485 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:49,314 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:49,315 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:52,172 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:47:52,173 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:47:55,255 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:47:55,261 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:47:58,994 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:47:58,994 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:01,404 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:01,405 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:48:04,603 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:04,607 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:48:08,199 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:48:08,223 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:11,040 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:11,041 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:48:14,102 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:14,107 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:48:17,525 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:48:17,526 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:21,039 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:21,039 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:48:24,097 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:24,102 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:48:27,829 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:48:27,830 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:30,030 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:30,031 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:48:33,084 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:33,088 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:48:36,512 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:48:36,512 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:39,082 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:39,082 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:48:42,049 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:42,053 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:48:45,518 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:48:45,519 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:47,966 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:47,967 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:48:51,098 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:51,102 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:48:54,402 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:48:54,402 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:48:57,102 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:48:57,102 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:00,250 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:00,254 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:03,881 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:03,881 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:05,598 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:05,598 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:08,976 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:08,981 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:12,413 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:12,414 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:14,604 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:14,604 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:17,784 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:17,788 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:21,093 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:21,094 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:23,699 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:23,700 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:26,966 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:26,970 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:30,594 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:30,595 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:33,183 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:33,183 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:36,593 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:36,598 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:39,867 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:39,867 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:41,808 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:41,809 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:44,982 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:44,988 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:48,468 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:48,469 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:50,210 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:50,211 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:49:54,080 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:54,084 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:49:57,575 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:49:57,576 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:49:59,326 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:49:59,326 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:50:02,844 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:02,849 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:50:06,751 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:50:06,752 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:08,846 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:50:08,847 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:50:12,120 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:12,128 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:50:15,560 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:50:15,561 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:18,472 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:50:18,472 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:50:22,316 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:22,320 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:50:26,422 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:50:26,422 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:28,899 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:50:28,900 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:50:32,319 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:32,323 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:50:37,110 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:50:37,111 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:38,851 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:50:38,852 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:50:42,170 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:42,173 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:50:45,681 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:50:45,681 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:48,477 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:50:48,478 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:50:51,918 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:51,923 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:50:55,360 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:50:55,361 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:50:57,339 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:50:57,339 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:51:00,662 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:00,666 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:51:04,249 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:51:04,249 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:05,997 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:51:05,997 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:51:09,369 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:09,374 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:51:13,084 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:51:13,084 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:15,695 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:51:15,696 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:51:18,992 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:18,996 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:51:22,475 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:51:22,476 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:25,221 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:51:25,222 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:51:28,517 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:28,522 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:51:31,865 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:51:31,866 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:33,641 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 16:51:33,642 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 16:51:36,936 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 16:51:36,941 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 16:51:41,229 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 16:51:41,230 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:40:00,660 | INFO | Worker started
+2026-02-26 17:40:00,660 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 17:42:20,308 | INFO | Worker started
+2026-02-26 17:42:20,309 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 17:42:22,177 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:42:22,185 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:42:22,191 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:42:25,753 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:42:28,221 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:42:28,222 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:42:29,381 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:42:30,540 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:42:30,541 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:42:31,592 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:42:33,052 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:42:33,053 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:42:34,028 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:42:35,174 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:42:37,704 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:42:40,137 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:42:40,137 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:42:42,511 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:42:42,512 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:42:43,745 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:42:43,746 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:42:44,799 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:42:45,889 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:42:48,994 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:43:05,557 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:43:05,557 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:43:09,153 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:43:11,839 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:43:12,800 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:43:30,943 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:43:33,260 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:43:33,264 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:43:33,270 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:43:36,896 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:43:37,803 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:43:38,720 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:43:39,591 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:43:39,591 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:43:40,578 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:43:41,711 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:43:41,712 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:43:42,541 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:43:43,601 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:43:43,602 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:43:44,447 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:43:45,489 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:43:46,554 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:43:47,414 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:43:48,588 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:43:49,423 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:43:51,342 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:43:51,342 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:43:52,226 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:43:52,233 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:43:53,264 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:43:54,150 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:43:56,348 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:43:57,345 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:43:59,299 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:44:00,372 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:44:03,733 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:44:03,736 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:44:03,739 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:44:07,526 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:44:09,966 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:44:09,966 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:44:11,068 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:44:11,957 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:44:11,958 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:44:12,925 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:44:13,893 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:44:13,893 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:44:14,987 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:44:14,987 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:44:15,830 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:44:17,037 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:44:19,599 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:44:19,599 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:44:20,601 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:44:21,560 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:44:23,931 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:44:23,932 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:44:25,077 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:44:27,624 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:44:27,625 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:44:29,535 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:44:31,792 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:44:32,917 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:44:35,326 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:44:37,711 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:44:40,056 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:44:40,061 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:44:40,068 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:44:44,614 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:44:44,616 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:44:45,729 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:44:46,810 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:44:47,648 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:44:48,518 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:44:49,592 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:44:49,592 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:44:50,451 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:44:51,536 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:44:51,537 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:44:52,418 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:44:53,547 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:44:54,442 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:44:55,346 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:44:56,373 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:44:56,374 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:44:57,248 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:44:58,355 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:44:59,307 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:45:00,407 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:45:01,540 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:45:02,695 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:45:04,758 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:45:05,728 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:45:07,888 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:45:08,884 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:45:12,264 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:45:12,267 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:45:12,271 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:45:15,757 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:45:18,516 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:45:18,516 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:45:19,412 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:45:20,348 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:45:20,348 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:45:21,045 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:45:21,761 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:45:22,756 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:45:23,821 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:45:25,396 | ERROR | Failed processing https://www.youtube.com/watch?v=xoXZCDH2bIU: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_limit_value': '60', 'quota_location': 'global', 'consumer': 'projects/310364608716', 'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'quota_unit': '1/min/{project}/{user}', 'service': 'sheets.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:45:25,396 | ERROR | [7] Failed https://www.youtube.com/watch?v=xoXZCDH2bIU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 53, in process_one
+    sync.update_fields(row_index, {
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+        "Title": meta.title,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        "STATUS": "METADATA_DONE",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 161, in update_fields
+    values = self.fetch_all()
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 37, in fetch_all
+    return self.client.get_values(self.spreadsheet_id, f"{self.tab}!A1:Z")
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sheets_client.py", line 18, in get_values
+    .execute()
+     ~~~~~~~^^
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_limit_value': '60', 'quota_location': 'global', 'consumer': 'projects/310364608716', 'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'quota_unit': '1/min/{project}/{user}', 'service': 'sheets.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:45:25,402 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:45:26,687 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:45:26,688 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:45:27,515 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:45:28,596 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:45:30,970 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:45:33,528 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:45:35,719 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:45:36,911 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:45:38,194 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:45:40,753 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:45:40,758 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:45:40,761 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:45:44,778 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:45:44,779 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:45:45,990 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:45:46,885 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:45:46,885 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:45:47,734 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:45:48,608 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:45:50,887 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:45:53,325 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:45:53,325 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:45:54,297 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:45:55,223 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:45:55,223 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:45:56,115 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:45:56,115 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:45:57,639 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:46:00,114 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:46:00,115 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:46:02,148 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:46:03,015 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:46:04,118 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:46:04,122 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:46:05,019 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:46:07,155 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:46:08,125 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:46:10,075 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:46:11,005 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:46:14,343 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:46:14,347 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:46:14,351 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:46:17,715 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:46:18,599 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:46:19,636 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:46:20,708 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:46:20,708 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:46:21,716 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:46:22,542 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:46:23,239 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:46:24,477 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:46:25,804 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:46:26,771 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:46:27,724 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:46:28,737 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:46:28,737 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:46:30,516 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:46:32,128 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:46:33,183 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:46:35,423 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:46:36,605 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:46:39,292 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:46:41,162 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:46:43,636 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:46:43,642 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:46:43,646 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:46:46,748 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:46:46,749 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:46:47,601 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:46:48,445 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:46:50,829 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:46:50,830 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:46:51,740 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:46:52,696 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:46:52,697 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:46:53,779 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:46:54,668 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:46:54,668 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:46:55,626 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:46:56,488 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:46:57,318 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:46:58,412 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:47:00,595 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:47:00,596 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:47:01,652 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:47:02,622 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:47:03,624 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:47:05,002 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:47:06,016 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:47:07,077 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:47:08,067 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:47:09,869 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:47:10,845 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:47:14,367 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:47:14,371 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:47:14,375 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:47:17,717 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:47:18,701 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:47:19,798 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:47:20,527 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:47:21,274 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:47:22,515 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:47:24,663 | ERROR | Failed processing https://www.youtube.com/watch?v=6eRwgM2Pa4o: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit_value': '60', 'quota_unit': '1/min/{project}/{user}', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'service': 'sheets.googleapis.com', 'quota_location': 'global', 'consumer': 'projects/310364608716'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:47:24,664 | ERROR | [6] Failed https://www.youtube.com/watch?v=6eRwgM2Pa4o
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 53, in process_one
+    sync.update_fields(row_index, {
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+        "Title": meta.title,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        "STATUS": "METADATA_DONE",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 161, in update_fields
+    values = self.fetch_all()
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 37, in fetch_all
+    return self.client.get_values(self.spreadsheet_id, f"{self.tab}!A1:Z")
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sheets_client.py", line 18, in get_values
+    .execute()
+     ~~~~~~~^^
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit_value': '60', 'quota_unit': '1/min/{project}/{user}', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'service': 'sheets.googleapis.com', 'quota_location': 'global', 'consumer': 'projects/310364608716'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:47:24,668 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:47:25,777 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:47:26,639 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:47:27,568 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:47:28,635 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:47:31,095 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:47:31,095 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:47:31,953 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:47:32,948 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:47:35,403 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:47:38,198 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:47:39,908 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:47:42,038 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:47:44,599 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:47:44,605 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:47:44,609 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:47:47,655 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:47:50,139 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:47:50,139 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:47:51,085 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:47:52,285 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:47:52,285 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:47:53,181 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:47:54,133 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:47:54,134 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:47:55,174 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:47:55,174 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:47:56,033 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:47:57,049 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:47:59,457 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:48:01,828 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:48:01,829 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:48:02,782 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:48:02,783 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:48:03,709 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:48:04,719 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:48:04,720 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:48:05,864 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:48:06,852 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:48:08,918 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:48:10,232 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:48:12,278 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:48:13,120 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:48:16,452 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:48:16,458 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:48:16,462 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:48:19,743 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:48:20,805 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:48:21,624 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:48:22,919 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:48:23,822 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:48:25,577 | ERROR | Failed processing https://www.youtube.com/watch?v=xoXZCDH2bIU: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'quota_limit_value': '60', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'consumer': 'projects/310364608716', 'quota_unit': '1/min/{project}/{user}', 'quota_metric': 'sheets.googleapis.com/read_requests', 'service': 'sheets.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:48:25,578 | ERROR | [7] Failed https://www.youtube.com/watch?v=xoXZCDH2bIU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 53, in process_one
+    sync.update_fields(row_index, {
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+        "Title": meta.title,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        "STATUS": "METADATA_DONE",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 161, in update_fields
+    values = self.fetch_all()
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 37, in fetch_all
+    return self.client.get_values(self.spreadsheet_id, f"{self.tab}!A1:Z")
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sheets_client.py", line 18, in get_values
+    .execute()
+     ~~~~~~~^^
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'quota_limit_value': '60', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'consumer': 'projects/310364608716', 'quota_unit': '1/min/{project}/{user}', 'quota_metric': 'sheets.googleapis.com/read_requests', 'service': 'sheets.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:48:25,579 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:48:26,685 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:48:26,686 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:48:27,741 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:48:28,816 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:48:31,219 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:48:33,483 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:48:35,901 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:48:36,774 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:48:38,839 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:48:41,324 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:48:41,328 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:48:41,332 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:48:44,449 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:48:44,450 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:48:45,305 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:48:46,280 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:48:47,261 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:48:48,117 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:48:49,069 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:48:49,070 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:48:49,974 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:48:51,062 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:48:51,063 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:48:52,055 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:48:53,113 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:48:53,980 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:48:55,000 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:48:55,957 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:48:58,349 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:48:58,350 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:48:59,320 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:49:00,194 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:49:01,196 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:49:02,053 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:49:03,019 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:49:04,121 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:49:05,060 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:49:06,784 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:49:07,806 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:49:11,148 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:49:11,153 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:49:11,157 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:49:14,104 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:49:16,320 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:49:16,320 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:49:17,374 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:49:18,368 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:49:18,369 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:49:19,303 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:49:20,185 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:49:20,185 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:49:21,194 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:49:22,081 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:49:24,297 | ERROR | Failed processing https://www.youtube.com/watch?v=xoXZCDH2bIU: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_unit': '1/min/{project}/{user}', 'quota_location': 'global', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'consumer': 'projects/310364608716', 'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit_value': '60', 'service': 'sheets.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:49:24,298 | ERROR | [7] Failed https://www.youtube.com/watch?v=xoXZCDH2bIU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 53, in process_one
+    sync.update_fields(row_index, {
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+        "Title": meta.title,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        "STATUS": "METADATA_DONE",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 161, in update_fields
+    values = self.fetch_all()
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 37, in fetch_all
+    return self.client.get_values(self.spreadsheet_id, f"{self.tab}!A1:Z")
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sheets_client.py", line 18, in get_values
+    .execute()
+     ~~~~~~~^^
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_unit': '1/min/{project}/{user}', 'quota_location': 'global', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'consumer': 'projects/310364608716', 'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit_value': '60', 'service': 'sheets.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:49:24,302 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:49:25,346 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:49:25,347 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:49:26,274 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:49:27,140 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:49:29,604 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:49:31,668 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:49:34,400 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:49:36,388 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:49:37,401 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:49:39,801 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:49:39,807 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:49:39,810 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:49:43,162 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:49:44,233 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:49:45,242 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:49:46,238 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:49:46,239 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:49:47,124 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:49:48,063 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:49:48,064 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:49:49,016 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:49:49,958 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:49:49,959 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:49:50,930 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:49:51,929 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:49:54,344 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:49:54,344 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:49:56,282 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:49:57,687 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:49:58,666 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:49:58,667 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:50:00,661 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:50:01,727 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:50:02,685 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:50:03,529 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:50:04,583 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:50:05,548 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:50:07,471 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:50:08,616 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:50:11,976 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:50:11,983 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:50:11,987 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:50:15,490 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:50:17,703 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:50:17,703 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:50:18,705 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:50:19,573 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:50:19,574 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:50:20,251 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:50:21,069 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:50:21,839 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:50:23,060 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:50:24,856 | ERROR | Failed processing https://www.youtube.com/watch?v=xoXZCDH2bIU: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'quota_limit_value': '60', 'consumer': 'projects/310364608716', 'service': 'sheets.googleapis.com', 'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'quota_unit': '1/min/{project}/{user}'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:50:24,857 | ERROR | [7] Failed https://www.youtube.com/watch?v=xoXZCDH2bIU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 53, in process_one
+    sync.update_fields(row_index, {
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+        "Title": meta.title,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        "STATUS": "METADATA_DONE",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    })
+    ^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 161, in update_fields
+    values = self.fetch_all()
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sync_manager.py", line 37, in fetch_all
+    return self.client.get_values(self.spreadsheet_id, f"{self.tab}!A1:Z")
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\sync\sheets_client.py", line 18, in get_values
+    .execute()
+     ~~~~~~~^^
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\AbidShaikh\AppData\Local\Programs\Python\Python314\Lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 429 when requesting https://sheets.googleapis.com/v4/spreadsheets/1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8/values/Sheet1%21A1%3AZ?alt=json returned "Quota exceeded for quota metric 'Read requests' and limit 'Read requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:310364608716'.". Details: "[{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'quota_limit_value': '60', 'consumer': 'projects/310364608716', 'service': 'sheets.googleapis.com', 'quota_metric': 'sheets.googleapis.com/read_requests', 'quota_limit': 'ReadRequestsPerMinutePerUser', 'quota_unit': '1/min/{project}/{user}'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]">
+2026-02-26 17:50:24,859 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:50:26,002 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:50:26,003 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:50:26,869 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:50:27,785 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:50:30,279 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:50:32,776 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:50:35,239 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:50:36,165 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:50:37,454 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:50:39,862 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:50:39,868 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:50:39,871 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:50:43,451 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:50:45,968 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:50:45,969 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:50:46,930 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:50:47,987 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:50:47,988 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:50:48,919 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:50:48,920 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:50:49,768 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:50:50,809 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 17:50:50,810 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:50:52,732 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 17:50:53,827 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:50:54,680 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:50:54,684 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:50:55,906 | INFO | Metadata extracted: CPR & AED Refresher Course with Nurse Eunice [Adult, Child, and Infant]
+2026-02-26 17:50:58,186 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:50:59,174 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:51:00,144 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:51:01,074 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 17:51:01,075 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:51:01,925 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:51:02,772 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:51:03,886 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:51:04,857 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:51:06,755 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:51:07,755 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:51:10,947 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:51:10,953 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:51:10,957 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:51:14,209 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 17:51:15,101 | INFO | Skipped duplicate: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:51:15,912 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 17:51:16,910 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 17:51:16,910 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 17:51:17,749 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 17:51:18,723 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 17:51:18,723 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:51:19,432 | INFO | [7] Processing https://www.youtube.com/watch?v=xoXZCDH2bIU
+2026-02-26 17:51:20,311 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 17:51:21,592 | INFO | [9] Processing https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:51:22,450 | INFO | [10] Processing https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:51:23,476 | INFO | [11] Processing https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:51:24,911 | INFO | Metadata extracted: Cardiac Science PowerHeart G5 | CPR/AED Training Video
+2026-02-26 17:51:27,465 | INFO | Metadata extracted: CPR / AED Emergency Response Refresher
+2026-02-26 17:51:29,708 | INFO | Metadata extracted: How To Perform CPR: A Step By Step Guide | Resuscitation CPR First Aid Training
+2026-02-26 17:51:32,376 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=xmWJB2fCGe0
+2026-02-26 17:51:33,344 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=msRft-g-k_s
+2026-02-26 17:51:34,470 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ewdKM9NYo1A
+2026-02-26 17:51:36,929 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 17:51:36,932 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 17:51:36,936 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 17:51:39,973 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 18:35:05,566 | INFO | Worker started
+2026-02-26 18:35:05,566 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 18:35:07,158 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 18:35:08,218 | ERROR | Failed processing https://www.youtube.com/watch?v=dQw4w9WgXcQ: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:08,218 | ERROR | [2] Failed https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:08,221 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 18:35:09,094 | ERROR | Failed processing https://vimeo.com/76979871: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:09,095 | ERROR | [3] Failed https://vimeo.com/76979871
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:09,096 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 18:35:09,959 | ERROR | Failed processing https://www.youtube.com/watch?v=TsJ49Np3HS0: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:09,960 | ERROR | [4] Failed https://www.youtube.com/watch?v=TsJ49Np3HS0
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:09,962 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 18:35:10,932 | ERROR | Failed processing https://www.youtube.com/watch?v=RMd7OB_WTeU: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:10,932 | ERROR | [5] Failed https://www.youtube.com/watch?v=RMd7OB_WTeU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:10,934 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 18:35:11,869 | ERROR | Failed processing https://www.youtube.com/watch?v=6eRwgM2Pa4o: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:11,870 | ERROR | [6] Failed https://www.youtube.com/watch?v=6eRwgM2Pa4o
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:11,871 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 18:35:12,732 | ERROR | Failed processing https://www.youtube.com/watch?v=2PngCv7NjaI: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:12,732 | ERROR | [8] Failed https://www.youtube.com/watch?v=2PngCv7NjaI
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:12,734 | INFO | [12] Processing https://www.youtube.com/watch?v=-NodDRTsV88
+2026-02-26 18:35:13,582 | ERROR | Failed processing https://www.youtube.com/watch?v=-NodDRTsV88: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:13,582 | ERROR | [12] Failed https://www.youtube.com/watch?v=-NodDRTsV88
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:13,583 | INFO | [13] Processing https://www.youtube.com/watch?v=bVY2h1CK1wU
+2026-02-26 18:35:14,468 | ERROR | Failed processing https://www.youtube.com/watch?v=bVY2h1CK1wU: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:14,469 | ERROR | [13] Failed https://www.youtube.com/watch?v=bVY2h1CK1wU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:14,471 | INFO | [14] Processing https://www.youtube.com/watch?v=ETed2qPfnqI
+2026-02-26 18:35:15,411 | ERROR | Failed processing https://www.youtube.com/watch?v=ETed2qPfnqI: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:15,412 | ERROR | [14] Failed https://www.youtube.com/watch?v=ETed2qPfnqI
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:15,413 | INFO | [15] Processing https://www.youtube.com/watch?v=M4ACYp75mjU
+2026-02-26 18:35:16,447 | ERROR | Failed processing https://www.youtube.com/watch?v=M4ACYp75mjU: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:16,448 | ERROR | [15] Failed https://www.youtube.com/watch?v=M4ACYp75mjU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:16,449 | INFO | [16] Processing https://www.youtube.com/watch?v=YeDwkE9p52M
+2026-02-26 18:35:17,284 | ERROR | Failed processing https://www.youtube.com/watch?v=YeDwkE9p52M: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:17,285 | ERROR | [16] Failed https://www.youtube.com/watch?v=YeDwkE9p52M
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:17,286 | INFO | [17] Processing https://www.youtube.com/watch?v=BUhUiPeEX-8
+2026-02-26 18:35:18,299 | ERROR | Failed processing https://www.youtube.com/watch?v=BUhUiPeEX-8: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:18,300 | ERROR | [17] Failed https://www.youtube.com/watch?v=BUhUiPeEX-8
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:18,301 | INFO | [18] Processing https://www.youtube.com/watch?v=aks4waFy5yU
+2026-02-26 18:35:19,161 | ERROR | Failed processing https://www.youtube.com/watch?v=aks4waFy5yU: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:19,162 | ERROR | [18] Failed https://www.youtube.com/watch?v=aks4waFy5yU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:19,162 | INFO | [19] Processing https://www.youtube.com/watch?v=khzRoaSmkNo
+2026-02-26 18:35:20,055 | ERROR | Failed processing https://www.youtube.com/watch?v=khzRoaSmkNo: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:20,055 | ERROR | [19] Failed https://www.youtube.com/watch?v=khzRoaSmkNo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:20,056 | INFO | [20] Processing https://www.youtube.com/watch?v=5tx_8LHgxVw
+2026-02-26 18:35:21,018 | ERROR | Failed processing https://www.youtube.com/watch?v=5tx_8LHgxVw: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:21,019 | ERROR | [20] Failed https://www.youtube.com/watch?v=5tx_8LHgxVw
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:21,020 | INFO | [21] Processing https://www.youtube.com/watch?v=BQNNOh8c8ks
+2026-02-26 18:35:22,162 | ERROR | Failed processing https://www.youtube.com/watch?v=BQNNOh8c8ks: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:22,163 | ERROR | [21] Failed https://www.youtube.com/watch?v=BQNNOh8c8ks
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:22,167 | INFO | [22] Processing https://www.youtube.com/watch?v=Hffo4f9mr2g
+2026-02-26 18:35:23,296 | ERROR | Failed processing https://www.youtube.com/watch?v=Hffo4f9mr2g: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:23,297 | ERROR | [22] Failed https://www.youtube.com/watch?v=Hffo4f9mr2g
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:23,298 | INFO | [23] Processing https://www.youtube.com/watch?v=2PJR0JyLPZY
+2026-02-26 18:35:24,306 | ERROR | Failed processing https://www.youtube.com/watch?v=2PJR0JyLPZY: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:24,306 | ERROR | [23] Failed https://www.youtube.com/watch?v=2PJR0JyLPZY
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:24,307 | INFO | [24] Processing https://www.youtube.com/watch?v=A5PnI4I-vd8
+2026-02-26 18:35:25,198 | ERROR | Failed processing https://www.youtube.com/watch?v=A5PnI4I-vd8: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:25,198 | ERROR | [24] Failed https://www.youtube.com/watch?v=A5PnI4I-vd8
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:25,200 | INFO | [25] Processing https://www.youtube.com/watch?v=J-GFZO5IaYo
+2026-02-26 18:35:26,089 | ERROR | Failed processing https://www.youtube.com/watch?v=J-GFZO5IaYo: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:26,090 | ERROR | [25] Failed https://www.youtube.com/watch?v=J-GFZO5IaYo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:26,091 | INFO | [26] Processing https://www.youtube.com/watch?v=VKGzXUB9FQs
+2026-02-26 18:35:27,025 | ERROR | Failed processing https://www.youtube.com/watch?v=VKGzXUB9FQs: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:27,026 | ERROR | [26] Failed https://www.youtube.com/watch?v=VKGzXUB9FQs
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:27,026 | INFO | [27] Processing https://www.youtube.com/watch?v=n65HW1iJUuY
+2026-02-26 18:35:27,891 | ERROR | Failed processing https://www.youtube.com/watch?v=n65HW1iJUuY: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:27,891 | ERROR | [27] Failed https://www.youtube.com/watch?v=n65HW1iJUuY
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:27,892 | INFO | [28] Processing https://www.youtube.com/watch?v=fb29LCjX4-E
+2026-02-26 18:35:28,851 | ERROR | Failed processing https://www.youtube.com/watch?v=fb29LCjX4-E: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:28,851 | ERROR | [28] Failed https://www.youtube.com/watch?v=fb29LCjX4-E
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:28,852 | INFO | [29] Processing https://www.dailymotion.com/video/x924mq
+2026-02-26 18:35:29,811 | ERROR | Failed processing https://www.dailymotion.com/video/x924mq: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:29,812 | ERROR | [29] Failed https://www.dailymotion.com/video/x924mq
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:29,814 | INFO | [30] Processing https://www.dailymotion.com/video/x2m3i0
+2026-02-26 18:35:30,770 | ERROR | Failed processing https://www.dailymotion.com/video/x2m3i0: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:30,771 | ERROR | [30] Failed https://www.dailymotion.com/video/x2m3i0
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:30,772 | INFO | [31] Processing https://www.dailymotion.com/video/x3tjwu
+2026-02-26 18:35:31,617 | ERROR | Failed processing https://www.dailymotion.com/video/x3tjwu: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:31,617 | ERROR | [31] Failed https://www.dailymotion.com/video/x3tjwu
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:31,618 | INFO | [32] Processing https://www.dailymotion.com/video/x85gpf
+2026-02-26 18:35:32,441 | ERROR | Failed processing https://www.dailymotion.com/video/x85gpf: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:32,442 | ERROR | [32] Failed https://www.dailymotion.com/video/x85gpf
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:32,443 | INFO | [33] Processing https://www.dailymotion.com/video/x2yvjq
+2026-02-26 18:35:33,331 | ERROR | Failed processing https://www.dailymotion.com/video/x2yvjq: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:33,331 | ERROR | [33] Failed https://www.dailymotion.com/video/x2yvjq
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    categories = info.get("categories") or []
+                 ^^^^
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:33,333 | INFO | [34] Processing https://www.youtube.com/watch?v=ea1RJUOiNfQ
+2026-02-26 18:35:34,231 | ERROR | Failed processing https://www.youtube.com/watch?v=ea1RJUOiNfQ: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:34,232 | ERROR | [34] Failed https://www.youtube.com/watch?v=ea1RJUOiNfQ
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    # categories = info.get("categories") or []
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:34,245 | INFO | [35] Processing https://www.youtube.com/watch?v=GmqXqwSV3bo
+2026-02-26 18:35:35,250 | ERROR | Failed processing https://www.youtube.com/watch?v=GmqXqwSV3bo: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:35,251 | ERROR | [35] Failed https://www.youtube.com/watch?v=GmqXqwSV3bo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    # categories = info.get("categories") or []
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:35,251 | INFO | [36] Processing https://www.youtube.com/watch?v=5OKFljZ2GQE
+2026-02-26 18:35:36,174 | ERROR | Failed processing https://www.youtube.com/watch?v=5OKFljZ2GQE: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:36,174 | ERROR | [36] Failed https://www.youtube.com/watch?v=5OKFljZ2GQE
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 39, in fetch_metadata
+    # categories = info.get("categories") or []
+UnboundLocalError: cannot access local variable 'info' where it is not associated with a value
+2026-02-26 18:35:40,221 | INFO | Worker started
+2026-02-26 18:35:40,221 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 18:35:41,940 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 18:35:41,948 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 18:35:41,952 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 18:35:45,331 | ERROR | Failed processing https://www.youtube.com/watch?v=TsJ49Np3HS0: name 'categories' is not defined
+2026-02-26 18:35:45,332 | ERROR | [4] Failed https://www.youtube.com/watch?v=TsJ49Np3HS0
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:45,336 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 18:35:46,414 | ERROR | Failed processing https://www.youtube.com/watch?v=dQw4w9WgXcQ: name 'categories' is not defined
+2026-02-26 18:35:46,415 | ERROR | [2] Failed https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:46,417 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 18:35:48,929 | ERROR | Failed processing https://www.youtube.com/watch?v=RMd7OB_WTeU: name 'categories' is not defined
+2026-02-26 18:35:48,929 | ERROR | [5] Failed https://www.youtube.com/watch?v=RMd7OB_WTeU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:48,932 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 18:35:50,123 | ERROR | Failed processing https://www.youtube.com/watch?v=6eRwgM2Pa4o: name 'categories' is not defined
+2026-02-26 18:35:50,124 | ERROR | [6] Failed https://www.youtube.com/watch?v=6eRwgM2Pa4o
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:50,127 | INFO | [12] Processing https://www.youtube.com/watch?v=-NodDRTsV88
+2026-02-26 18:35:51,255 | ERROR | Failed processing https://vimeo.com/76979871: name 'categories' is not defined
+2026-02-26 18:35:51,255 | ERROR | [3] Failed https://vimeo.com/76979871
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:51,258 | INFO | [13] Processing https://www.youtube.com/watch?v=bVY2h1CK1wU
+2026-02-26 18:35:52,628 | ERROR | Failed processing https://www.youtube.com/watch?v=2PngCv7NjaI: name 'categories' is not defined
+2026-02-26 18:35:52,629 | ERROR | [8] Failed https://www.youtube.com/watch?v=2PngCv7NjaI
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:52,632 | INFO | [14] Processing https://www.youtube.com/watch?v=ETed2qPfnqI
+2026-02-26 18:35:53,621 | ERROR | Failed processing https://www.youtube.com/watch?v=-NodDRTsV88: name 'categories' is not defined
+2026-02-26 18:35:53,622 | ERROR | [12] Failed https://www.youtube.com/watch?v=-NodDRTsV88
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:53,624 | INFO | [15] Processing https://www.youtube.com/watch?v=M4ACYp75mjU
+2026-02-26 18:35:55,306 | ERROR | Failed processing https://www.youtube.com/watch?v=bVY2h1CK1wU: name 'categories' is not defined
+2026-02-26 18:35:55,306 | ERROR | [13] Failed https://www.youtube.com/watch?v=bVY2h1CK1wU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:55,308 | INFO | [16] Processing https://www.youtube.com/watch?v=YeDwkE9p52M
+2026-02-26 18:35:56,281 | ERROR | Failed processing https://www.youtube.com/watch?v=ETed2qPfnqI: name 'categories' is not defined
+2026-02-26 18:35:56,282 | ERROR | [14] Failed https://www.youtube.com/watch?v=ETed2qPfnqI
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:56,283 | INFO | [17] Processing https://www.youtube.com/watch?v=BUhUiPeEX-8
+2026-02-26 18:35:57,275 | ERROR | Failed processing https://www.youtube.com/watch?v=M4ACYp75mjU: name 'categories' is not defined
+2026-02-26 18:35:57,275 | ERROR | [15] Failed https://www.youtube.com/watch?v=M4ACYp75mjU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:57,276 | INFO | [18] Processing https://www.youtube.com/watch?v=aks4waFy5yU
+2026-02-26 18:35:58,628 | ERROR | Failed processing https://www.youtube.com/watch?v=YeDwkE9p52M: name 'categories' is not defined
+2026-02-26 18:35:58,628 | ERROR | [16] Failed https://www.youtube.com/watch?v=YeDwkE9p52M
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:58,630 | INFO | [19] Processing https://www.youtube.com/watch?v=khzRoaSmkNo
+2026-02-26 18:35:59,733 | ERROR | Failed processing https://www.youtube.com/watch?v=BUhUiPeEX-8: name 'categories' is not defined
+2026-02-26 18:35:59,733 | ERROR | [17] Failed https://www.youtube.com/watch?v=BUhUiPeEX-8
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:35:59,735 | INFO | [20] Processing https://www.youtube.com/watch?v=5tx_8LHgxVw
+2026-02-26 18:36:00,811 | ERROR | Failed processing https://www.youtube.com/watch?v=aks4waFy5yU: yt-dlp failed: ERROR: [youtube] aks4waFy5yU: This video is not available
+
+2026-02-26 18:36:00,812 | ERROR | [18] Failed https://www.youtube.com/watch?v=aks4waFy5yU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 50, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [youtube] aks4waFy5yU: This video is not available
+
+2026-02-26 18:36:00,812 | INFO | [21] Processing https://www.youtube.com/watch?v=BQNNOh8c8ks
+2026-02-26 18:36:02,065 | ERROR | Failed processing https://www.youtube.com/watch?v=khzRoaSmkNo: name 'categories' is not defined
+2026-02-26 18:36:02,065 | ERROR | [19] Failed https://www.youtube.com/watch?v=khzRoaSmkNo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:02,067 | INFO | [22] Processing https://www.youtube.com/watch?v=Hffo4f9mr2g
+2026-02-26 18:36:03,129 | ERROR | Failed processing https://www.youtube.com/watch?v=5tx_8LHgxVw: name 'categories' is not defined
+2026-02-26 18:36:03,129 | ERROR | [20] Failed https://www.youtube.com/watch?v=5tx_8LHgxVw
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:03,130 | INFO | [23] Processing https://www.youtube.com/watch?v=2PJR0JyLPZY
+2026-02-26 18:36:04,214 | ERROR | Failed processing https://www.youtube.com/watch?v=BQNNOh8c8ks: name 'categories' is not defined
+2026-02-26 18:36:04,214 | ERROR | [21] Failed https://www.youtube.com/watch?v=BQNNOh8c8ks
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:04,216 | INFO | [24] Processing https://www.youtube.com/watch?v=A5PnI4I-vd8
+2026-02-26 18:36:05,246 | ERROR | Failed processing https://www.youtube.com/watch?v=Hffo4f9mr2g: name 'categories' is not defined
+2026-02-26 18:36:05,284 | ERROR | [22] Failed https://www.youtube.com/watch?v=Hffo4f9mr2g
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:05,287 | INFO | [25] Processing https://www.youtube.com/watch?v=J-GFZO5IaYo
+2026-02-26 18:36:06,430 | ERROR | Failed processing https://www.youtube.com/watch?v=2PJR0JyLPZY: name 'categories' is not defined
+2026-02-26 18:36:06,431 | ERROR | [23] Failed https://www.youtube.com/watch?v=2PJR0JyLPZY
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:06,433 | INFO | [26] Processing https://www.youtube.com/watch?v=VKGzXUB9FQs
+2026-02-26 18:36:07,421 | ERROR | Failed processing https://www.youtube.com/watch?v=A5PnI4I-vd8: name 'categories' is not defined
+2026-02-26 18:36:07,422 | ERROR | [24] Failed https://www.youtube.com/watch?v=A5PnI4I-vd8
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:07,423 | INFO | [27] Processing https://www.youtube.com/watch?v=n65HW1iJUuY
+2026-02-26 18:36:08,645 | ERROR | Failed processing https://www.youtube.com/watch?v=J-GFZO5IaYo: name 'categories' is not defined
+2026-02-26 18:36:08,645 | ERROR | [25] Failed https://www.youtube.com/watch?v=J-GFZO5IaYo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:08,646 | INFO | [28] Processing https://www.youtube.com/watch?v=fb29LCjX4-E
+2026-02-26 18:36:09,607 | ERROR | Failed processing https://www.youtube.com/watch?v=VKGzXUB9FQs: name 'categories' is not defined
+2026-02-26 18:36:09,607 | ERROR | [26] Failed https://www.youtube.com/watch?v=VKGzXUB9FQs
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:09,610 | INFO | [29] Processing https://www.dailymotion.com/video/x924mq
+2026-02-26 18:36:10,650 | ERROR | Failed processing https://www.youtube.com/watch?v=n65HW1iJUuY: name 'categories' is not defined
+2026-02-26 18:36:10,650 | ERROR | [27] Failed https://www.youtube.com/watch?v=n65HW1iJUuY
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:10,653 | INFO | [30] Processing https://www.dailymotion.com/video/x2m3i0
+2026-02-26 18:36:11,707 | ERROR | Failed processing https://www.youtube.com/watch?v=fb29LCjX4-E: name 'categories' is not defined
+2026-02-26 18:36:11,708 | ERROR | [28] Failed https://www.youtube.com/watch?v=fb29LCjX4-E
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:11,711 | INFO | [31] Processing https://www.dailymotion.com/video/x3tjwu
+2026-02-26 18:36:12,767 | ERROR | Failed processing https://www.dailymotion.com/video/x924mq: yt-dlp failed: ERROR: [dailymotion] x924mq: Not found.
+
+2026-02-26 18:36:12,768 | ERROR | [29] Failed https://www.dailymotion.com/video/x924mq
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 50, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x924mq: Not found.
+
+2026-02-26 18:36:12,770 | INFO | [32] Processing https://www.dailymotion.com/video/x85gpf
+2026-02-26 18:36:13,663 | ERROR | Failed processing https://www.dailymotion.com/video/x2m3i0: yt-dlp failed: ERROR: [dailymotion] x2m3i0: Not found.
+
+2026-02-26 18:36:13,664 | ERROR | [30] Failed https://www.dailymotion.com/video/x2m3i0
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 50, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x2m3i0: Not found.
+
+2026-02-26 18:36:13,665 | INFO | [33] Processing https://www.dailymotion.com/video/x2yvjq
+2026-02-26 18:36:14,610 | ERROR | Failed processing https://www.dailymotion.com/video/x3tjwu: yt-dlp failed: ERROR: [dailymotion] x3tjwu: Not found.
+
+2026-02-26 18:36:14,610 | ERROR | [31] Failed https://www.dailymotion.com/video/x3tjwu
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 50, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x3tjwu: Not found.
+
+2026-02-26 18:36:14,612 | INFO | [34] Processing https://www.youtube.com/watch?v=ea1RJUOiNfQ
+2026-02-26 18:36:15,791 | ERROR | Failed processing https://www.dailymotion.com/video/x85gpf: yt-dlp failed: ERROR: [dailymotion] x85gpf: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+
+2026-02-26 18:36:15,791 | ERROR | [32] Failed https://www.dailymotion.com/video/x85gpf
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 50, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x85gpf: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+
+2026-02-26 18:36:15,792 | INFO | [35] Processing https://www.youtube.com/watch?v=GmqXqwSV3bo
+2026-02-26 18:36:16,659 | ERROR | Failed processing https://www.dailymotion.com/video/x2yvjq: yt-dlp failed: ERROR: [dailymotion] x2yvjq: Not found.
+
+2026-02-26 18:36:16,659 | ERROR | [33] Failed https://www.dailymotion.com/video/x2yvjq
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 50, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x2yvjq: Not found.
+
+2026-02-26 18:36:16,661 | INFO | [36] Processing https://www.youtube.com/watch?v=5OKFljZ2GQE
+2026-02-26 18:36:17,672 | ERROR | Failed processing https://www.youtube.com/watch?v=ea1RJUOiNfQ: name 'categories' is not defined
+2026-02-26 18:36:17,672 | ERROR | [34] Failed https://www.youtube.com/watch?v=ea1RJUOiNfQ
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:17,676 | INFO | [37] Processing https://www.youtube.com/watch?v=f2_oj5toBlI
+2026-02-26 18:36:18,803 | ERROR | Failed processing https://www.youtube.com/watch?v=GmqXqwSV3bo: name 'categories' is not defined
+2026-02-26 18:36:18,803 | ERROR | [35] Failed https://www.youtube.com/watch?v=GmqXqwSV3bo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:18,804 | INFO | [38] Processing https://www.youtube.com/watch?v=vC2X6YJzTUo
+2026-02-26 18:36:19,813 | ERROR | Failed processing https://www.youtube.com/watch?v=5OKFljZ2GQE: name 'categories' is not defined
+2026-02-26 18:36:19,814 | ERROR | [36] Failed https://www.youtube.com/watch?v=5OKFljZ2GQE
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:19,816 | INFO | [39] Processing https://www.youtube.com/watch?v=blYBs5p6x1s
+2026-02-26 18:36:21,616 | ERROR | Failed processing https://www.youtube.com/watch?v=f2_oj5toBlI: name 'categories' is not defined
+2026-02-26 18:36:21,617 | ERROR | [37] Failed https://www.youtube.com/watch?v=f2_oj5toBlI
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:21,619 | INFO | [40] Processing https://www.youtube.com/watch?v=ofdIebkxxOk
+2026-02-26 18:36:22,701 | ERROR | Failed processing https://www.youtube.com/watch?v=vC2X6YJzTUo: name 'categories' is not defined
+2026-02-26 18:36:22,701 | ERROR | [38] Failed https://www.youtube.com/watch?v=vC2X6YJzTUo
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:36:22,703 | INFO | [41] Processing https://www.youtube.com/watch?v=GymXjJJ7Ugo
+2026-02-26 18:36:23,633 | ERROR | Failed processing https://www.youtube.com/watch?v=blYBs5p6x1s: name 'categories' is not defined
+2026-02-26 18:36:23,634 | ERROR | [39] Failed https://www.youtube.com/watch?v=blYBs5p6x1s
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 67, in fetch_metadata
+    categories=[str(x) for x in categories if x],
+                                ^^^^^^^^^^
+NameError: name 'categories' is not defined
+2026-02-26 18:39:45,716 | INFO | Worker started
+2026-02-26 18:39:45,716 | INFO | Spreadsheet=1ylA9KFS80jBbGlkiJFMhWkl1gU8G2Z9mp13fmvwSrR8 Tab=Sheet1 Device=BK22
+2026-02-26 18:39:47,589 | INFO | [2] Processing https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 18:39:47,597 | INFO | [3] Processing https://vimeo.com/76979871
+2026-02-26 18:39:47,603 | INFO | [4] Processing https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 18:39:51,280 | INFO | Metadata extracted: First Aid Training: CPR
+2026-02-26 18:39:56,731 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=TsJ49Np3HS0
+2026-02-26 18:39:56,732 | INFO | [5] Processing https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 18:39:57,783 | INFO | Metadata extracted: Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)
+2026-02-26 18:39:57,783 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+2026-02-26 18:39:58,877 | INFO | [6] Processing https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 18:40:00,630 | INFO | Metadata extracted: How to Perform Emergency CPR on an Adult - Royal Life Saving Training Video
+2026-02-26 18:40:00,631 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=RMd7OB_WTeU
+2026-02-26 18:40:01,658 | INFO | [8] Processing https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 18:40:02,832 | INFO | Metadata extracted: How to Perform Hands-Only CPR
+2026-02-26 18:40:05,804 | INFO | Metadata extracted: The New Vimeo Player (You Know, For Videos)
+2026-02-26 18:40:05,805 | INFO | Skipped irrelevant: https://vimeo.com/76979871
+2026-02-26 18:40:06,727 | INFO | [12] Processing https://www.youtube.com/watch?v=-NodDRTsV88
+2026-02-26 18:40:07,902 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=6eRwgM2Pa4o
+2026-02-26 18:40:07,903 | INFO | [13] Processing https://www.youtube.com/watch?v=bVY2h1CK1wU
+2026-02-26 18:40:08,918 | INFO | Metadata extracted: Chest Compressions (CPR Steps)
+2026-02-26 18:40:08,918 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PngCv7NjaI
+2026-02-26 18:40:10,039 | INFO | [14] Processing https://www.youtube.com/watch?v=ETed2qPfnqI
+2026-02-26 18:40:10,982 | INFO | Metadata extracted: CPR/AED
+2026-02-26 18:40:14,031 | INFO | Metadata extracted: CPR Training Video - How to Do CPR for Healthcare Providers
+2026-02-26 18:40:14,032 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=ETed2qPfnqI
+2026-02-26 18:40:14,946 | INFO | [15] Processing https://www.youtube.com/watch?v=M4ACYp75mjU
+2026-02-26 18:40:15,917 | INFO | Metadata extracted: How to do CPR on an Adult (Ages 12 and Older)
+2026-02-26 18:40:15,917 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=-NodDRTsV88
+2026-02-26 18:40:17,315 | INFO | [16] Processing https://www.youtube.com/watch?v=YeDwkE9p52M
+2026-02-26 18:40:18,298 | INFO | Metadata extracted: Hands-Only CPR Instructional Video
+2026-02-26 18:40:18,299 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=M4ACYp75mjU
+2026-02-26 18:40:19,366 | INFO | [17] Processing https://www.youtube.com/watch?v=BUhUiPeEX-8
+2026-02-26 18:40:20,436 | INFO | Metadata extracted: How to perform CPR on an infant
+2026-02-26 18:40:20,436 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=YeDwkE9p52M
+2026-02-26 18:40:21,351 | INFO | [18] Processing https://www.youtube.com/watch?v=aks4waFy5yU
+2026-02-26 18:40:22,293 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=bVY2h1CK1wU
+2026-02-26 18:40:22,294 | INFO | [19] Processing https://www.youtube.com/watch?v=khzRoaSmkNo
+2026-02-26 18:40:23,393 | INFO | Metadata extracted: How to Perform CPR on Adults & Infants | In Case of Emergency | Mass General Brigham
+2026-02-26 18:40:23,394 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=BUhUiPeEX-8
+2026-02-26 18:40:24,337 | INFO | [20] Processing https://www.youtube.com/watch?v=5tx_8LHgxVw
+2026-02-26 18:40:25,347 | ERROR | Failed processing https://www.youtube.com/watch?v=aks4waFy5yU: yt-dlp failed: ERROR: [youtube] aks4waFy5yU: This video is not available
+
+2026-02-26 18:40:25,353 | ERROR | [18] Failed https://www.youtube.com/watch?v=aks4waFy5yU
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 48, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [youtube] aks4waFy5yU: This video is not available
+
+2026-02-26 18:40:25,359 | INFO | [21] Processing https://www.youtube.com/watch?v=BQNNOh8c8ks
+2026-02-26 18:40:26,494 | INFO | Metadata extracted: How to perform CPR from the experts at the American Heart Association
+2026-02-26 18:40:26,495 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=khzRoaSmkNo
+2026-02-26 18:40:27,442 | INFO | [22] Processing https://www.youtube.com/watch?v=Hffo4f9mr2g
+2026-02-26 18:40:28,431 | INFO | Metadata extracted: New Hands-Only CPR Instructional Video
+2026-02-26 18:40:28,432 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=5tx_8LHgxVw
+2026-02-26 18:40:29,345 | INFO | [23] Processing https://www.youtube.com/watch?v=2PJR0JyLPZY
+2026-02-26 18:40:30,509 | INFO | Metadata extracted: How to do CPR on an Adult - First Aid Training - St John Ambulance
+2026-02-26 18:40:33,622 | INFO | Metadata extracted: How to use an AED - A Step-by-Step Guide
+2026-02-26 18:40:33,622 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=2PJR0JyLPZY
+2026-02-26 18:40:34,524 | INFO | [24] Processing https://www.youtube.com/watch?v=A5PnI4I-vd8
+2026-02-26 18:40:35,462 | INFO | Metadata extracted: CPR/AED Training Video with Rescue Breathing & Choking Skills!
+2026-02-26 18:40:35,463 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=Hffo4f9mr2g
+2026-02-26 18:40:36,456 | INFO | [25] Processing https://www.youtube.com/watch?v=J-GFZO5IaYo
+2026-02-26 18:40:37,775 | INFO | Metadata extracted: Hands Only CPR Video - Live Training Version
+2026-02-26 18:40:40,713 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=BQNNOh8c8ks
+2026-02-26 18:40:40,714 | INFO | [26] Processing https://www.youtube.com/watch?v=VKGzXUB9FQs
+2026-02-26 18:40:41,804 | INFO | Metadata extracted: Resuscitation UK CPR training video
+2026-02-26 18:40:46,478 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=A5PnI4I-vd8
+2026-02-26 18:40:46,479 | INFO | [27] Processing https://www.youtube.com/watch?v=n65HW1iJUuY
+2026-02-26 18:40:48,215 | INFO | Metadata extracted: CPR demonstration presented by the American Red Cross
+2026-02-26 18:40:48,216 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=VKGzXUB9FQs
+2026-02-26 18:40:49,174 | INFO | [28] Processing https://www.youtube.com/watch?v=fb29LCjX4-E
+2026-02-26 18:40:50,176 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=J-GFZO5IaYo
+2026-02-26 18:40:50,176 | INFO | [29] Processing https://www.dailymotion.com/video/x924mq
+2026-02-26 18:40:51,673 | INFO | Metadata extracted: CPR for Infants (Newborn to 1 Year)
+2026-02-26 18:40:54,650 | ERROR | Failed processing https://www.dailymotion.com/video/x924mq: yt-dlp failed: ERROR: [dailymotion] x924mq: Not found.
+
+2026-02-26 18:40:54,650 | ERROR | [29] Failed https://www.dailymotion.com/video/x924mq
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 48, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x924mq: Not found.
+
+2026-02-26 18:40:54,652 | INFO | [30] Processing https://www.dailymotion.com/video/x2m3i0
+2026-02-26 18:40:55,699 | INFO | Metadata extracted: OLD ARCHIVE from 2015: BLS AED demo video by ERC. A new version will be available;
+2026-02-26 18:40:58,717 | ERROR | Failed processing https://www.dailymotion.com/video/x2m3i0: yt-dlp failed: ERROR: [dailymotion] x2m3i0: Not found.
+
+2026-02-26 18:40:58,717 | ERROR | [30] Failed https://www.dailymotion.com/video/x2m3i0
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 48, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x2m3i0: Not found.
+
+2026-02-26 18:40:58,721 | INFO | [31] Processing https://www.dailymotion.com/video/x3tjwu
+2026-02-26 18:40:59,675 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=n65HW1iJUuY
+2026-02-26 18:40:59,675 | INFO | [32] Processing https://www.dailymotion.com/video/x85gpf
+2026-02-26 18:41:01,094 | ERROR | Failed processing https://www.dailymotion.com/video/x3tjwu: yt-dlp failed: ERROR: [dailymotion] x3tjwu: Not found.
+
+2026-02-26 18:41:01,094 | ERROR | [31] Failed https://www.dailymotion.com/video/x3tjwu
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 48, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x3tjwu: Not found.
+
+2026-02-26 18:41:01,095 | INFO | [33] Processing https://www.dailymotion.com/video/x2yvjq
+2026-02-26 18:41:03,272 | ERROR | Failed processing https://www.dailymotion.com/video/x85gpf: yt-dlp failed: ERROR: [dailymotion] x85gpf: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+
+2026-02-26 18:41:03,273 | ERROR | [32] Failed https://www.dailymotion.com/video/x85gpf
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 48, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x85gpf: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+
+2026-02-26 18:41:03,274 | INFO | [34] Processing https://www.youtube.com/watch?v=ea1RJUOiNfQ
+2026-02-26 18:41:04,462 | ERROR | Failed processing https://www.dailymotion.com/video/x2yvjq: yt-dlp failed: ERROR: [dailymotion] x2yvjq: Not found.
+
+2026-02-26 18:41:04,463 | ERROR | [33] Failed https://www.dailymotion.com/video/x2yvjq
+Traceback (most recent call last):
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\pipeline\worker.py", line 50, in process_one
+    meta = await fetch_metadata(url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AbidShaikh\Documents\video_scraper_system\app\scrapers\ytdlp_scraper.py", line 48, in fetch_metadata
+    raise RuntimeError(f"yt-dlp failed: {err.decode(errors='ignore')[:400]}")
+RuntimeError: yt-dlp failed: ERROR: [dailymotion] x2yvjq: Not found.
+
+2026-02-26 18:41:04,464 | INFO | [35] Processing https://www.youtube.com/watch?v=GmqXqwSV3bo
+2026-02-26 18:41:06,613 | INFO | Metadata extracted: How to do the Primary Survey - First Aid Training - St John Ambulance
+2026-02-26 18:41:09,830 | INFO | Metadata extracted: The Recovery Position - First Aid Training - St John Ambulance
+2026-02-26 18:41:12,802 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=fb29LCjX4-E
+2026-02-26 18:41:12,802 | INFO | [36] Processing https://www.youtube.com/watch?v=5OKFljZ2GQE
+2026-02-26 18:41:16,302 | INFO | Metadata extracted: Basic First Aid Training Video
+2026-02-26 18:41:16,303 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=5OKFljZ2GQE
+2026-02-26 18:41:17,303 | INFO | [37] Processing https://www.youtube.com/watch?v=f2_oj5toBlI
+2026-02-26 18:41:18,217 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=ea1RJUOiNfQ
+2026-02-26 18:41:18,217 | INFO | [38] Processing https://www.youtube.com/watch?v=vC2X6YJzTUo
+2026-02-26 18:41:19,299 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=GmqXqwSV3bo
+2026-02-26 18:41:19,300 | INFO | [39] Processing https://www.youtube.com/watch?v=blYBs5p6x1s
+2026-02-26 18:41:20,483 | INFO | Metadata extracted: Basic First Aid Training UK (Updated 2023)
+2026-02-26 18:41:20,484 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=f2_oj5toBlI
+2026-02-26 18:41:21,440 | INFO | [40] Processing https://www.youtube.com/watch?v=ofdIebkxxOk
+2026-02-26 18:41:22,633 | INFO | Metadata extracted: Practical First Aid #10 - Control of Bleeding
+2026-02-26 18:41:25,498 | INFO | Metadata extracted: St John Ambulance First Aid Training Experience
+2026-02-26 18:41:25,499 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=vC2X6YJzTUo
+2026-02-26 18:41:26,400 | INFO | [41] Processing https://www.youtube.com/watch?v=GymXjJJ7Ugo
+2026-02-26 18:41:27,496 | INFO | Metadata extracted: PAEDIATRIC FIRST AID COMPLETE PRACTICALS
+2026-02-26 18:41:27,497 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=ofdIebkxxOk
+2026-02-26 18:41:28,557 | INFO | [42] Processing https://www.youtube.com/watch?v=gn6xt1ca8A0
+2026-02-26 18:41:29,614 | INFO | Metadata extracted: Children First Aid: Choking Child part 1  | First Aid | British Red Cross
+2026-02-26 18:41:29,615 | INFO | Skipped irrelevant: https://www.youtube.com/watch?v=GymXjJJ7Ugo
+2026-02-26 18:41:30,718 | INFO | [43] Processing https://www.youtube.com/watch?v=61urGQrmeNM
+2026-02-26 18:41:32,183 | INFO | Metadata extracted: How to Use your First Aid Kit & Contents - First Aid Training - St John Ambulance
+2026-02-26 18:41:35,348 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=blYBs5p6x1s
+2026-02-26 18:41:35,350 | INFO | [44] Processing https://www.youtube.com/watch?v=HGBBu4zr8sM
+2026-02-26 18:41:36,429 | INFO | Metadata extracted: How to Treat Shock - First Aid Training - St John Ambulance
+2026-02-26 18:41:39,495 | INFO | Downloaded successfully: https://www.youtube.com/watch?v=gn6xt1ca8A0
+2026-02-26 18:41:39,496 | INFO | [45] Processing https://www.youtube.com/watch?v=BZMD3cfyjVI
+2026-02-26 18:41:40,508 | INFO | Metadata extracted: First Aid Training: Choking
