@@ -14,6 +14,8 @@ from app.filtering.pipeline import RelevancePipeline
 from app.downloader.ytdlp_downloader import download_video
 from app.duplicates.sheet_dedupe import SheetDedupe
 from app.core.logger import setup_logger
+from app.core.network import wait_for_internet
+from app.core.retry import retry_with_backoff
 
 from app.sync.oauth import get_credentials
 from app.sync.sheets_client import SheetsClient
@@ -36,6 +38,8 @@ def load_config():
 
 
 async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: RelevancePipeline, base_dir: str, row_index: int, url: str, device: str, logger):
+
+    await wait_for_internet()
     
     dedupe = SheetDedupe(sync)
     # logger.info(f"Processing URL: {url}")
@@ -47,7 +51,7 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
         return
 
     try:
-        meta = await fetch_metadata(url)
+        meta = await retry_with_backoff(lambda: fetch_metadata(url))
 
         # Update metadata fields early
         sync.update_fields(row_index, {
@@ -100,13 +104,23 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
         # Optional: visible state
         sync.update_fields(row_index, {"STATUS": "DOWNLOADING"})
 
+        await wait_for_internet()
+
         # Download locally
-        path = await download_video(
+        path = await retry_with_backoff(lambda: download_video(
             url=meta.url,
             title=meta.title,
             platform=meta.platform,
             base_dir=base_dir,
-        )
+        ))
+
+
+        # path = await download_video(
+        #     url=meta.url,
+        #     title=meta.title,
+        #     platform=meta.platform,
+        #     base_dir=base_dir,
+        # )
 
         sync.update_fields(row_index, {
             "Video  Local Saved Path": path,
@@ -116,7 +130,39 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
         logger.info(f"Downloaded successfully: {url}")
 
     except Exception as e:
-        sync.update_fields(row_index, {"STATUS": "FAILED", "Downloaded": "FALSE","Relevance Reason": f"error:{type(e).__name__}"})
+        msg = str(e).lower()
+
+        # crude but effective network detection
+        networkish = any(x in msg for x in [
+            "name or service not known",
+            "temporary failure in name resolution",
+            "network is unreachable",
+            "connection reset",
+            "connection aborted",
+            "timed out",
+            "timeout",
+            "dns",
+            "http error 5",
+        ])
+
+        if networkish:
+            # Leave task for retry later
+            sync.update_fields(row_index, {
+                "STATUS": "PENDING",
+                "Relevance Reason": f"network_retry:{type(e).__name__}",
+                "Downloaded": "FALSE",
+            })
+            return
+
+        # Real failure (not network)
+        sync.update_fields(row_index, {
+            "STATUS": "FAILED",
+            "Downloaded": "FALSE",
+            "Relevance Reason": f"error:{type(e).__name__}",
+        })
+
+        # sync.update_fields(row_index, {"STATUS": "FAILED", "Downloaded": "FALSE","Relevance Reason": f"error:{type(e).__name__}"})
+
         logger.error(f"Failed processing {url}: {e}")
         logger.exception(f"[{row_index}] Failed {url}")
 
@@ -159,12 +205,15 @@ async def main():
             await task
 
     while True:
-        pending = sync.fetch_pending(limit=batch)
+        # Ensure internet before talking to Sheets
+        await wait_for_internet()
+        pending = await retry_with_backoff(lambda: asyncio.to_thread(sync.fetch_pending, batch))
+        
         if not pending:
             await asyncio.sleep(poll)
             continue
 
-        claimed = sync.claim(pending, device_name=device)
+        claimed = await retry_with_backoff(lambda: asyncio.to_thread(sync.claim, pending, device))
 
         # process concurrently (async downloads/yt-dlp subprocesses)
         coros = [
