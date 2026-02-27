@@ -76,15 +76,28 @@ class SyncManager:
 
         header = values[0]
         hmap = build_header_map(header)
-        url_idx = hmap.get("Video URL")
 
+        # REQUIRED columns (normalized)
+        url_idx = hmap.get(_norm("Video URL"))
+        status_idx = hmap.get(_norm("STATUS"))
+
+        if url_idx is None or status_idx is None:
+            raise RuntimeError(
+                "Sheet header missing required columns. "
+                f"Have keys={list(hmap.keys())}"
+            )
+
+        discovered_by_idx = hmap.get(_norm("Discovered By"))
+        downloaded_idx = hmap.get(_norm("Downloaded"))
+        created_idx = hmap.get(_norm("Created Datetime"))
+
+        # Build existing URL set
         existing: set[str] = set()
-        if url_idx is not None:
-            for r in values[1:]:
-                if url_idx < len(r):
-                    u = (r[url_idx] or "").strip()
-                    if u:
-                        existing.add(u)
+        for r in values[1:]:
+            if url_idx < len(r):
+                u = (r[url_idx] or "").strip()
+                if u:
+                    existing.add(u)
 
         to_append: list[list[Any]] = []
         for u in urls:
@@ -93,12 +106,15 @@ class SyncManager:
                 continue
 
             new_row = [""] * len(header)
-            if "Video URL" in hmap: new_row[hmap["Video URL"]] = u
-            if "STATUS" in hmap: new_row[hmap["STATUS"]] = "PENDING"
-            if "Downloaded" in hmap: new_row[hmap["Downloaded"]] = "FALSE"
-            # Discovery device should not occupy downloader device column
-            if "Discovered By" in hmap and device_name: new_row[hmap["Discovered By"]] = device_name
-            if "Created Datetime" in hmap: new_row[hmap["Created Datetime"]] = now_iso()
+            new_row[url_idx] = u
+            new_row[status_idx] = "PENDING"
+
+            if downloaded_idx is not None:
+                new_row[downloaded_idx] = "FALSE"
+            if created_idx is not None:
+                new_row[created_idx] = now_iso()
+            if discovered_by_idx is not None and device_name:
+                new_row[discovered_by_idx] = device_name
 
             to_append.append(new_row)
             existing.add(u)
