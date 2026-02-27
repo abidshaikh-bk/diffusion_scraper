@@ -17,7 +17,8 @@ COLUMNS = [
     "Downloaded",	
     "Device name",
     "Discovered By",
-    "Relevance Reason"
+    "Relevance Reason",
+    "URL Lock"
 ]
 
 def _norm(s: str) -> str:

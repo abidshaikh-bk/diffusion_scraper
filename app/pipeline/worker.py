@@ -78,12 +78,27 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
 
         sync.update_fields(row_index, {"Relevance": "TRUE", "Relevance Reason": reason_text})
 
+        # 1) Global skip if already downloaded anywhere (sheet-backed)
         if dedupe.is_already_downloaded(url):
-            logger.info(f"Skipped duplicate: {url}")
-            sync.update_fields(row_index, {"STATUS": "SKIPPED_DUPLICATE", "Downloaded": "FALSE","Relevance Reason": "duplicate_already_downloaded"})
+            sync.update_fields(row_index, {
+                "STATUS": "SKIPPED_DUPLICATE",
+                "Downloaded": "FALSE",
+                "Relevance Reason": "duplicate_already_downloaded",
+            })
             return
-        
-        sync.update_fields(row_index, {"STATUS": "READY_TO_DOWNLOAD"})
+
+        # 2) Acquire a lock before downloading to avoid concurrent multi-device duplicates
+        locked = sync.try_lock_url(row_index=row_index, device_name=device)
+        if not locked:
+            sync.update_fields(row_index, {
+                "STATUS": "SKIPPED_DUPLICATE",
+                "Downloaded": "FALSE",
+                "Relevance Reason": "duplicate_locked_by_other_device",
+            })
+            return
+
+        # Optional: visible state
+        sync.update_fields(row_index, {"STATUS": "DOWNLOADING"})
 
         # Download locally
         path = await download_video(

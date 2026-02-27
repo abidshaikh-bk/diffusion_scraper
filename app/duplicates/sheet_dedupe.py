@@ -29,6 +29,7 @@ class SheetDedupe:
         url_i = hmap.get("Video URL")
         downloaded_i = hmap.get("Downloaded")
         status_i = hmap.get("STATUS")
+        device_i = hmap.get("Device name")  # if using normalized keys
 
         urls: set[str] = set()
         for r in rows[1:]:
@@ -41,7 +42,8 @@ class SheetDedupe:
             downloaded = (r[downloaded_i] or "").strip().upper() if downloaded_i is not None and downloaded_i < len(r) else ""
             status = (r[status_i] or "").strip().upper() if status_i is not None and status_i < len(r) else ""
 
-            if downloaded == "TRUE" or status == "DOWNLOADED":
+            device = (r[device_i] or "").strip() if device_i is not None and device_i < len(r) else ""
+            if (downloaded == "TRUE" or status == "DOWNLOADED") and device:
                 urls.add(url)
 
         self._cache_urls = urls

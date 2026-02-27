@@ -202,3 +202,34 @@ class SyncManager:
 
         if updates:
             self.client.batch_update_values(self.spreadsheet_id, updates)
+
+    def try_lock_url(self, row_index: int, device_name: str) -> bool:
+        """
+        Simple lock: if URL Lock cell is empty, set it to device_name.
+        Returns True if lock acquired or already owned by device.
+        """
+        values = self.fetch_all()
+        header = values[0]
+        hmap = build_header_map(header)
+
+        lock_idx = hmap.get(_norm("URL Lock"))
+        if lock_idx is None:
+            # If column not present, can't lock; behave like "no lock"
+            return True
+
+        # Read current lock value from the in-memory fetched data (values)
+        # row_index is 1-based sheet row; values list is 0-based with header at 0.
+        row = values[row_index - 1] if row_index - 1 < len(values) else []
+        current = ""
+        if lock_idx < len(row):
+            current = (row[lock_idx] or "").strip()
+
+        if current and current != device_name:
+            return False
+
+        if current == device_name:
+            return True
+
+        # acquire lock
+        self.update_fields(row_index, {"URL Lock": device_name})
+        return True
