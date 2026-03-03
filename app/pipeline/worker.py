@@ -3,7 +3,9 @@ from __future__ import annotations
 import asyncio
 import os
 import socket
+import time
 import yaml
+import random
 from dotenv import load_dotenv
 
 from app.platforms.registry import PlatformRegistry
@@ -37,9 +39,36 @@ def load_config():
     return f.get("min_duration_sec"), f.get("max_duration_sec"), d.get("base_dir", "data/downloads")
 
 
-async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: RelevancePipeline, base_dir: str, row_index: int, url: str, device: str, logger):
+def _is_rate_limited_message(msg: str) -> bool:
+    return any(x in msg for x in [
+        "rate-limited by youtube",
+        "too many requests",
+        "http error 429",
+        "try again later",
+    ])
 
-    await wait_for_internet()
+
+async def process_one(
+    sync: SyncManager,
+    registry: PlatformRegistry,
+    relevance: RelevancePipeline,
+    base_dir: str,
+    row_index: int,
+    url: str,
+    device: str,
+    logger,
+    cooldown_state: dict | None = None,
+):
+
+    if cooldown_state and cooldown_state.get("enabled") and time.monotonic() < cooldown_state.get("until", 0.0):
+        sync.update_fields(row_index, {
+            "STATUS": "PENDING",
+            "Relevance Reason": "global_cooldown_active",
+            "Downloaded": "FALSE",
+        })
+        return "cooldown_deferred"
+
+    await wait_for_internet(logger=logger)
     
     dedupe = SheetDedupe(sync)
     # logger.info(f"Processing URL: {url}")
@@ -48,10 +77,15 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
     # Safety gate: allowlist
     if not registry.is_allowed(url):
         sync.update_fields(row_index, {"STATUS": "SKIPPED_NOT_ALLOWED_PLATFORM", "Downloaded": "FALSE", "Relevance": "FALSE"})
-        return
+        return "skipped_not_allowed"
 
     try:
-        meta = await retry_with_backoff(lambda: fetch_metadata(url))
+        meta = await retry_with_backoff(
+            lambda: fetch_metadata(url),
+            logger=logger,
+            operation_name="fetch_metadata",
+            retries=None,
+        )
 
         # Update metadata fields early
         sync.update_fields(row_index, {
@@ -78,7 +112,7 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
                 "Downloaded": "FALSE",
                 "STATUS": "SKIPPED_IRRELEVANT",
             })
-            return
+            return "skipped_irrelevant"
 
         sync.update_fields(row_index, {"Relevance": "TRUE", "Relevance Reason": reason_text})
 
@@ -89,7 +123,7 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
                 "Downloaded": "FALSE",
                 "Relevance Reason": "duplicate_already_downloaded",
             })
-            return
+            return "skipped_duplicate"
 
         # 2) Acquire a lock before downloading to avoid concurrent multi-device duplicates
         locked = sync.try_lock_url(row_index=row_index, device_name=device)
@@ -99,20 +133,24 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
                 "Downloaded": "FALSE",
                 "Relevance Reason": "duplicate_locked_by_other_device",
             })
-            return
+            return "skipped_duplicate"
 
         # Optional: visible state
         sync.update_fields(row_index, {"STATUS": "DOWNLOADING"})
 
-        await wait_for_internet()
+        await wait_for_internet(logger=logger)
 
         # Download locally
-        path = await retry_with_backoff(lambda: download_video(
-            url=meta.url,
-            title=meta.title,
-            platform=meta.platform,
-            base_dir=base_dir,
-        ))
+        path = await retry_with_backoff(
+            lambda: download_video(
+                url=meta.url,
+                title=meta.title,
+                platform=meta.platform,
+                base_dir=base_dir,
+            ),
+            logger=logger,
+            operation_name="download_video",
+        )
 
 
         # path = await download_video(
@@ -128,9 +166,18 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
             "STATUS": "DOWNLOADED",
         })
         logger.info(f"Downloaded successfully: {url}")
+        return "downloaded"
 
     except Exception as e:
         msg = str(e).lower()
+
+        authish = any(x in msg for x in [
+            "could not copy chrome cookie database",
+            "failed to decrypt with dpapi",
+            "sign in to confirm",
+            "--cookies-from-browser",
+            "--cookies for the authentication",
+        ])
 
         # crude but effective network detection
         networkish = any(x in msg for x in [
@@ -145,6 +192,14 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
             "http error 5",
         ])
 
+        rate_limited = _is_rate_limited_message(msg)
+
+        ejs_missing = any(x in msg for x in [
+            "n challenge solving failed",
+            "only images are available",
+            # "requested format is not available",
+        ])
+
         if networkish:
             # Leave task for retry later
             sync.update_fields(row_index, {
@@ -152,7 +207,48 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
                 "Relevance Reason": f"network_retry:{type(e).__name__}",
                 "Downloaded": "FALSE",
             })
-            return
+            return "network_retry"
+
+        if rate_limited:
+            sync.update_fields(row_index, {
+                "STATUS": "PENDING",
+                "Relevance Reason": "yt_rate_limited_retry_later",
+                "Downloaded": "FALSE",
+            })
+            if cooldown_state and cooldown_state.get("enabled"):
+                sec = max(int(cooldown_state.get("sec", 1800)), 1)
+                new_until = time.monotonic() + sec
+                if new_until > cooldown_state.get("until", 0.0):
+                    cooldown_state["until"] = new_until
+                    logger.warning(f"Entering global cooldown for {sec}s (first rate-limit hit)")
+            logger.warning(f"Rate-limited for {url}: {e}")
+            return "rate_limited"
+        
+        if authish:
+            sync.update_fields(row_index, {
+                "STATUS": "SKIPPED_AUTH_REQUIRED",
+                "Downloaded": "FALSE",
+                "Relevance Reason": "yt_auth_required_or_cookie_access_failed",
+            })
+            logger.error(f"Auth/cookies issue for {url}: {e}")
+            return "skipped_auth_required"
+
+        if ejs_missing:
+            sync.update_fields(row_index, {
+                "STATUS": "SKIPPED_NEEDS_EJS",
+                "Downloaded": "FALSE",
+                "Relevance Reason": "yt_n_challenge_solver_missing",
+            })
+            logger.error(f"EJS/solver issue for {url}: {e}")
+            return "skipped_needs_ejs"
+
+        if "yt_n_challenge_needs_ejs" in msg:
+            sync.update_fields(row_index, {
+                "STATUS": "SKIPPED_NEEDS_EJS",
+                "Downloaded": "FALSE",
+                "Relevance Reason": "yt_n_challenge_solver_missing",
+            })
+            return "skipped_needs_ejs"
 
         # Real failure (not network)
         sync.update_fields(row_index, {
@@ -161,10 +257,22 @@ async def process_one(sync: SyncManager, registry: PlatformRegistry, relevance: 
             "Relevance Reason": f"error:{type(e).__name__}",
         })
 
+        format_missing = "requested format is not available" in msg or "format_not_available" in msg
+
+        if format_missing:
+            sync.update_fields(row_index, {
+                "STATUS": "SKIPPED_FORMAT_NOT_AVAILABLE",
+                "Downloaded": "FALSE",
+                "Relevance Reason": "format_not_available",
+            })
+            logger.warning(f"Format selection issue for {url}: {e}")
+            return "skipped_format_not_available"
+
         # sync.update_fields(row_index, {"STATUS": "FAILED", "Downloaded": "FALSE","Relevance Reason": f"error:{type(e).__name__}"})
 
         logger.error(f"Failed processing {url}: {e}")
         logger.exception(f"[{row_index}] Failed {url}")
+        return "failed"
 
 
 async def main():
@@ -173,9 +281,19 @@ async def main():
     poll = int(os.getenv("POLL_INTERVAL_SEC", "3"))
     batch = int(os.getenv("BATCH_SIZE", "10"))
     concurrency = int(os.getenv("CONCURRENCY", "3"))
+    cooldown_enabled = os.getenv("YT_RATE_LIMIT_COOLDOWN_ENABLED", "true").strip().lower() in {"1", "true", "yes", "on"}
+    cooldown_sec = int(os.getenv("YT_RATE_LIMIT_COOLDOWN_SEC", "1800"))
+    cooldown_state = {
+        "enabled": cooldown_enabled,
+        "sec": max(cooldown_sec, 1),
+        "until": 0.0,
+    }
 
     logger = setup_logger()
     logger.info("Worker started")
+    logger.info(
+        f"Rate-limit cooldown enabled={cooldown_state['enabled']} cooldown_sec={cooldown_state['sec']}"
+    )
 
     if not sid:
         raise ValueError("SPREADSHEET_ID missing in .env")
@@ -200,27 +318,50 @@ async def main():
 
     sem = asyncio.Semaphore(concurrency)
 
-    async def guarded(task):
+    async def guarded(coro):
         async with sem:
-            await task
+            return await coro
 
     while True:
+        now = time.monotonic()
+        if cooldown_state["enabled"] and now < cooldown_state["until"]:
+            remaining = int(cooldown_state["until"] - now)
+            logger.warning(f"Global cooldown active for {remaining}s due to YouTube rate limiting")
+            await asyncio.sleep(max(remaining, 1))
+            continue
+
         # Ensure internet before talking to Sheets
-        await wait_for_internet()
-        pending = await retry_with_backoff(lambda: asyncio.to_thread(sync.fetch_pending, batch))
+        await wait_for_internet(logger=logger)
+        pending = await retry_with_backoff(
+            lambda: asyncio.to_thread(sync.fetch_pending, batch),
+            logger=logger,
+            operation_name="fetch_pending"
+        )
         
         if not pending:
             await asyncio.sleep(poll)
             continue
 
-        claimed = await retry_with_backoff(lambda: asyncio.to_thread(sync.claim, pending, device))
+        claimed = await retry_with_backoff(
+            lambda: asyncio.to_thread(sync.claim, pending, device),
+            logger=logger,
+            operation_name="claim"
+        )
 
-        # process concurrently (async downloads/yt-dlp subprocesses)
-        coros = [
-            guarded(process_one(sync, registry, relevance, base_dir, t.row_index, t.url, device, logger))
+        random.shuffle(claimed)
+
+        tasks = [
+            asyncio.create_task(
+                guarded(process_one(sync, registry, relevance, base_dir, t.row_index, t.url, device, logger, cooldown_state))
+            )
             for t in claimed
         ]
-        await asyncio.gather(*coros, return_exceptions=True)
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # optional: log exceptions clearly
+        for r in results:
+            if isinstance(r, Exception):
+                logger.error(f"Task failed: {r}", exc_info=r)
 
         await asyncio.sleep(1)
 
