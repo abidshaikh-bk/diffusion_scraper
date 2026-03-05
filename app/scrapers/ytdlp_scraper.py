@@ -3,7 +3,8 @@ from __future__ import annotations
 import asyncio
 import json
 import os
-from typing import Tuple
+from typing import Tuple, Optional
+from urllib.parse import urlparse
 
 from app.core.human_sleep import sleep_async
 from app.core.utils import seconds_to_hhmmss
@@ -33,6 +34,20 @@ UNAVAILABLE_MARKERS = (
 )
 
 
+def _platform_key_from_url(url: str) -> str:
+    try:
+        host = (urlparse(url).netloc or "").lower()
+    except Exception:
+        host = ""
+    if "youtu" in host:
+        return "youtube"
+    if "vimeo" in host:
+        return "vimeo"
+    if "dailymotion" in host or "dai.ly" in host:
+        return "dailymotion"
+    return "unknown"
+
+
 def _platform_from_info(info: dict) -> str:
     key = (info.get("extractor_key") or info.get("extractor") or "").lower()
     if "youtube" in key:
@@ -58,7 +73,7 @@ def _contains_any(stderr: str, markers: Tuple[str, ...]) -> bool:
     return any(m in s for m in markers)
 
 
-async def _run_ytdlp_metadata(url: str, extractor_args: str) -> dict:
+async def _run_ytdlp_metadata(url: str, extractor_args: str | None = None) -> dict:
     sleep_requests = os.getenv("YTDLP_SLEEP_REQUESTS_SEC", "1").strip()
     min_sleep = os.getenv("YTDLP_MIN_SLEEP_INTERVAL_SEC", "2").strip()
     max_sleep = os.getenv("YTDLP_MAX_SLEEP_INTERVAL_SEC", "5").strip()
@@ -71,13 +86,15 @@ async def _run_ytdlp_metadata(url: str, extractor_args: str) -> dict:
         "--no-playlist",
         "--geo-bypass",
         "--geo-bypass-country", "IN",
-
         "--sleep-requests", sleep_requests,
         "--min-sleep-interval", min_sleep,
         "--max-sleep-interval", max_sleep,
+    ]
 
-        "--extractor-args", extractor_args,
+    if extractor_args:
+        cmd += ["--extractor-args", extractor_args]
 
+    cmd += [
         *ytdlp_auth_args(),
         url,
     ]
@@ -93,14 +110,109 @@ async def _run_ytdlp_metadata(url: str, extractor_args: str) -> dict:
 
     stderr = err.decode(errors="ignore")
     if proc.returncode != 0:
-        # IMPORTANT: raise full stderr snippet so worker logs show real reason
         raise RuntimeError(stderr[:900] or "yt-dlp metadata failed (empty stderr)")
 
     return json.loads(out.decode("utf-8", errors="ignore"))
 
-
 async def fetch_metadata(url: str) -> VideoMetadata:
-    # Metadata should NOT depend on -f selection.
+    u = (url or "").lower()
+
+    # ✅ Non-YouTube platforms: one call, no youtube extractor args
+    if "youtu" not in u:
+        info = await _run_ytdlp_metadata(url, extractor_args=None)
+
+        duration_sec = info.get("duration") if isinstance(info.get("duration"), int) else None
+        categories = info.get("categories") or []
+        tags = info.get("tags") or []
+
+        return VideoMetadata(
+            url=url,
+            title=info.get("title") or "",
+            description=info.get("description") or "",
+            language=info.get("language") or "",
+            video_type=info.get("ext") or "",
+            quality=_quality_from_info(info),
+            duration=seconds_to_hhmmss(duration_sec),
+            platform=_platform_from_info(info),
+            uploader=info.get("uploader") or "",
+            channel=info.get("channel") or info.get("uploader") or "",
+            categories=[str(x) for x in categories if x],
+            tags=[str(x) for x in tags if x],
+        )
+
+    # ✅ YouTube: keep your fallback strategy (we’ll ignore for now)
+    clients = [
+        "youtube:player_client=web,web_safari,tv",
+        "youtube:player_client=android",
+        "youtube:player_client=ios",
+    ]
+
+    last_err = ""
+    for extractor_args in clients:
+        try:
+            info = await _run_ytdlp_metadata(url, extractor_args=extractor_args)
+
+            duration_sec = info.get("duration") if isinstance(info.get("duration"), int) else None
+            categories = info.get("categories") or []
+            tags = info.get("tags") or []
+
+            return VideoMetadata(
+                url=url,
+                title=info.get("title") or "",
+                description=info.get("description") or "",
+                language=info.get("language") or "",
+                video_type=info.get("ext") or "",
+                quality=_quality_from_info(info),
+                duration=seconds_to_hhmmss(duration_sec),
+                platform=_platform_from_info(info),
+                uploader=info.get("uploader") or "",
+                channel=info.get("channel") or info.get("uploader") or "",
+                categories=[str(x) for x in categories if x],
+                tags=[str(x) for x in tags if x],
+            )
+
+        except Exception as e:
+            last_err = str(e)
+
+            if _contains_any(last_err, UNAVAILABLE_MARKERS) or _contains_any(last_err, ONLY_IMAGES_MARKERS):
+                raise RuntimeError(f"yt-dlp failed (non-retryable): {last_err[:400]}")
+
+            if _contains_any(last_err, EJS_MARKERS):
+                await sleep_async(base=0.8)
+                continue
+
+            await sleep_async(base=0.6)
+            continue
+
+    if _contains_any(last_err, EJS_MARKERS):
+        raise RuntimeError(f"yt-dlp failed: YT_N_CHALLENGE_NEEDS_EJS: {last_err[:400]}")
+
+    raise RuntimeError(f"yt-dlp failed: {last_err[:400]}")
+    u = (url or "").lower()
+
+    # ✅ Non-YouTube platforms: run once, no YouTube extractor args
+    if "youtu" not in u:
+        info = await _run_ytdlp_metadata(url, extractor_args="")  # no extractor args
+        duration_sec = info.get("duration") if isinstance(info.get("duration"), int) else None
+        categories = info.get("categories") or []
+        tags = info.get("tags") or []
+
+        return VideoMetadata(
+            url=url,
+            title=info.get("title") or "",
+            description=info.get("description") or "",
+            language=info.get("language") or "",
+            video_type=info.get("ext") or "",
+            quality=_quality_from_info(info),
+            duration=seconds_to_hhmmss(duration_sec),
+            platform=_platform_from_info(info),
+            uploader=info.get("uploader") or "",
+            channel=info.get("channel") or info.get("uploader") or "",
+            categories=[str(x) for x in categories if x],
+            tags=[str(x) for x in tags if x],
+        )
+
+    # ✅ YouTube: keep your existing client fallback strategy
     clients = [
         "youtube:player_client=web,web_safari,tv",
         "youtube:player_client=android",
@@ -137,16 +249,13 @@ async def fetch_metadata(url: str) -> VideoMetadata:
             if _contains_any(last_err, UNAVAILABLE_MARKERS) or _contains_any(last_err, ONLY_IMAGES_MARKERS):
                 raise RuntimeError(f"yt-dlp failed (non-retryable): {last_err[:400]}")
 
-            # if EJS-ish -> try next client
             if _contains_any(last_err, EJS_MARKERS):
                 await sleep_async(base=0.8)
                 continue
 
-            # other errors -> still try next client
             await sleep_async(base=0.6)
             continue
 
-    # exhausted clients
     if _contains_any(last_err, EJS_MARKERS):
         raise RuntimeError(f"yt-dlp failed: YT_N_CHALLENGE_NEEDS_EJS: {last_err[:400]}")
 

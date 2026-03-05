@@ -171,19 +171,31 @@ class SyncManager:
         header = values[0]
         hmap = build_header_map(header)
 
+        status_key = _norm("Status")
+        device_key = _norm("Device name")
+        created_key = _norm("Created Datetime")
+
         updates: list[Dict[str, Any]] = []
         for t in tasks:
-            if "STATUS" in hmap:
-                updates.append({"range": f"{self.tab}!{col_to_a1(hmap[_norm('STATUS')])}{t.row_index}", "values": [["IN_PROGRESS"]]})
-            if "Device name" in hmap:
-                updates.append({"range": f"{self.tab}!{col_to_a1(hmap[_norm('Device name')])}{t.row_index}", "values": [[device_name]]})
-            if "Created Datetime" in hmap:
-                updates.append({"range": f"{self.tab}!{col_to_a1(hmap[_norm('Created Datetime')])}{t.row_index}", "values": [[now_iso()]]})
+            if status_key in hmap:
+                updates.append({
+                    "range": f"{self.tab}!{col_to_a1(hmap[status_key])}{t.row_index}",
+                    "values": [["IN_PROGRESS"]],
+                })
+            if device_key in hmap:
+                updates.append({
+                    "range": f"{self.tab}!{col_to_a1(hmap[device_key])}{t.row_index}",
+                    "values": [[device_name]],
+                })
+            if created_key in hmap:
+                updates.append({
+                    "range": f"{self.tab}!{col_to_a1(hmap[created_key])}{t.row_index}",
+                    "values": [[now_iso()]],
+                })
 
         if updates:
             self.client.batch_update_values(self.spreadsheet_id, updates)
 
-        # return as claimed
         for t in tasks:
             t.status = "IN_PROGRESS"
         return tasks

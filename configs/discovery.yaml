@@ -1,8 +1,9 @@
+# configs/discovery.yaml
+
 # Discovery runs on "queries" and pushes discovered video URLs into the Google Sheet as PENDING.
 # NOTE:
 # - youtube uses yt-dlp ytsearch (no API key).
 # - vimeo/dailymotion use Playwright scraping of their own search pages.
-# - other platforms are included as toggles and will work once their providers are implemented.
 
 limits:
   # Cap URLs enqueued per query across all platforms combined
@@ -17,12 +18,33 @@ limits:
   # Fail-open behaviour: continue even if one platform provider errors
   continue_on_provider_error: true
 
+# ✅ NEW: platform-by-platform scheduling + sleep
+cycle:
+  # If true: keep looping platform_order forever (recommended if you're running as a service)
+  enabled: true
+
+  # Sleep after each platform discovery + append finishes
+  sleep_seconds: 180
+
+  # Optional jitter added to sleep to reduce "bot-like" cadence
+  jitter_seconds: 30
+
+  # Discover in this order (only enabled ones will run)
+  platform_order:
+    - youtube
+    - dailymotion
+    - vimeo
+
+  # How many queries to take each cycle:
+  # - 1 = exactly one term per platform, then sleep (your requested behavior)
+  # - 0 = all queries per platform, then sleep
+  queries_per_platform: 1
+
 platform_search:
   youtube:
     enabled: true
     search_engine_name: "YouTubeSearch"
     max_results_per_query: 30
-    # If you want to bias longer training, set min_duration filter later (metadata stage)
 
   vimeo:
     enabled: true
@@ -34,7 +56,7 @@ platform_search:
     search_engine_name: "DailymotionSearch"
     max_pages: 2
 
-  # The following are placeholders for future providers
+  # placeholders for future providers
   facebook_watch:
     enabled: false
     search_engine_name: "FacebookSearch"

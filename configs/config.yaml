@@ -1,5 +1,5 @@
 filtering:
-  min_duration_sec: 120      # 2 minutes
+  min_duration_sec: 1      # 2 minutes
   max_duration_sec: 1800     # 30 minutes
 downloads:
   base_dir: "data/downloads"
@@ -11,5 +11,5 @@ runtime:
 
 limits:
   # Add small jitter delays between downloads per worker (we can implement next)
-  min_delay_sec: 1
-  max_delay_sec: 3
+  min_delay_sec: 3
+  max_delay_sec: 8

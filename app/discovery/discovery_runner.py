@@ -1,10 +1,36 @@
 from __future__ import annotations
-from typing import List, Set
+from typing import List
 
 from app.discovery.youtube_ytdlp_search import youtube_search
 from app.discovery.playwright_vimeo_search import vimeo_search
 from app.discovery.playwright_dailymotion_search import dailymotion_search
 
+
+async def discover_urls_for_platform_query(
+    platform: str,
+    query: str,
+    youtube_max: int,
+    vimeo_pages: int,
+    dailymotion_pages: int,
+) -> List[str]:
+    """
+    Discover URLs for exactly ONE platform + ONE query.
+    """
+    p = (platform or "").lower().strip()
+
+    if p == "youtube":
+        return await youtube_search(query, max_results=youtube_max)
+
+    if p == "vimeo":
+        return await vimeo_search(query, max_pages=vimeo_pages)
+
+    if p == "dailymotion":
+        return await dailymotion_search(query, max_pages=dailymotion_pages)
+
+    raise ValueError(f"Unsupported platform: {platform}")
+
+
+# Backward-compatible helper (optional): keep the old behavior available
 async def discover_urls_for_query(
     query: str,
     youtube_max: int,
@@ -15,26 +41,30 @@ async def discover_urls_for_query(
     enable_dailymotion: bool = True,
 ) -> List[str]:
     urls: List[str] = []
-    seen: Set[str] = set()
 
     if enable_youtube:
         try:
-            yt_urls = await youtube_search(query, max_results=youtube_max)
-            for u in yt_urls:
-                if u not in seen:
-                    seen.add(u); urls.append(u)
-        except Exception as e:
-            # continue with other platforms
+            urls.extend(await youtube_search(query, max_results=youtube_max))
+        except Exception:
             pass
 
     if enable_vimeo:
-        for u in await vimeo_search(query, max_pages=vimeo_pages):
-            if u not in seen:
-                seen.add(u); urls.append(u)
+        try:
+            urls.extend(await vimeo_search(query, max_pages=vimeo_pages))
+        except Exception:
+            pass
 
     if enable_dailymotion:
-        for u in await dailymotion_search(query, max_pages=dailymotion_pages):
-            if u not in seen:
-                seen.add(u); urls.append(u)
+        try:
+            urls.extend(await dailymotion_search(query, max_pages=dailymotion_pages))
+        except Exception:
+            pass
 
-    return urls
+    # de-dupe while preserving order
+    seen = set()
+    out: List[str] = []
+    for u in urls:
+        if u and u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
