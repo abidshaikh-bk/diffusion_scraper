@@ -1,6 +1,6 @@
 filtering:
-  min_duration_sec: 1      # 2 minutes
-  max_duration_sec: 1800     # 30 minutes
+  min_duration_sec: 1      # min 1 second video
+  max_duration_sec: null    # no upper limit, downloads any length videos
 downloads:
   base_dir: "data/downloads"
 runtime:

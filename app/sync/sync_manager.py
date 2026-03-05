@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 from app.sync.sheets_client import SheetsClient
 from app.sync.sheet_schema import build_header_map, _norm, col_to_a1, COLUMNS
@@ -13,6 +13,7 @@ class TaskRow:
     row_index: int          # 1-based row number in sheet
     url: str
     status: str
+    discovery_query: str = ""   # ✅ NEW
 
 
 def now_iso() -> str:
@@ -22,7 +23,7 @@ def now_iso() -> str:
 class SyncManager:
     """
     Distributed coordination using:
-      - STATUS
+      - Status
       - Device name
       - Downloaded
     """
@@ -33,7 +34,6 @@ class SyncManager:
         self.tab = tab_name
 
     def fetch_all(self) -> List[List[Any]]:
-        # wide range for safety; header-driven
         return self.client.get_values(self.spreadsheet_id, f"{self.tab}!A1:Z")
 
     def _norm(self, s: str) -> str:
@@ -48,11 +48,9 @@ class SyncManager:
         current = values[0]
         expected = COLUMNS
 
-        # Normalize both
         cur_norm = [self._norm(x) for x in current]
         exp_norm = [self._norm(x) for x in expected]
 
-        # If same length and normalized equal -> OK
         if len(cur_norm) >= len(exp_norm) and cur_norm[: len(exp_norm)] == exp_norm:
             return
 
@@ -62,14 +60,15 @@ class SyncManager:
                 "Set rewrite_if_mismatch=True to auto-fix."
             )
 
-        # Rewrite header row A1:O1 (based on expected length)
+        # rewrite header row exactly to expected
+        end_col = col_to_a1(len(expected) - 1)
         updates = [{
-            "range": f"{self.tab}!A1:{chr(65+len(expected)-1)}1",
+            "range": f"{self.tab}!A1:{end_col}1",
             "values": [expected],
         }]
         self.client.batch_update_values(self.spreadsheet_id, updates)
 
-    def append_pending_urls(self, urls: list[str], device_name: str = "") -> int:
+    def append_pending_urls(self, urls: list[str], device_name: str = "", discovery_query: str = "") -> int:
         values = self.fetch_all()
         if not values:
             raise RuntimeError("Sheet is empty; run init headers first.")
@@ -77,9 +76,12 @@ class SyncManager:
         header = values[0]
         hmap = build_header_map(header)
 
-        # REQUIRED columns (normalized)
         url_idx = hmap.get(_norm("Video URL"))
-        status_idx = hmap.get(_norm("STATUS"))
+
+        # ✅ IMPORTANT: your schema uses "Status" (not STATUS), but we support both
+        status_idx = hmap.get(_norm("Status"))
+        if status_idx is None:
+            status_idx = hmap.get(_norm("STATUS"))
 
         if url_idx is None or status_idx is None:
             raise RuntimeError(
@@ -90,8 +92,8 @@ class SyncManager:
         discovered_by_idx = hmap.get(_norm("Discovered By"))
         downloaded_idx = hmap.get(_norm("Downloaded"))
         created_idx = hmap.get(_norm("Created Datetime"))
+        dq_idx = hmap.get(_norm("Discovery Query"))  # ✅ NEW
 
-        # Build existing URL set
         existing: set[str] = set()
         for r in values[1:]:
             if url_idx < len(r):
@@ -115,6 +117,10 @@ class SyncManager:
                 new_row[created_idx] = now_iso()
             if discovered_by_idx is not None and device_name:
                 new_row[discovered_by_idx] = device_name
+
+            # ✅ write query into the row at discovery time
+            if dq_idx is not None and discovery_query:
+                new_row[dq_idx] = discovery_query
 
             to_append.append(new_row)
             existing.add(u)
@@ -142,11 +148,16 @@ class SyncManager:
         out: list[TaskRow] = []
         for i, row in enumerate(values[1:], start=2):
             url = get(row, "Video URL")
-            status = get(row, "STATUS")
+
+            # ✅ support both spellings
+            status = get(row, "Status") or get(row, "STATUS")
+            dq = get(row, "Discovery Query")
+
             if not url:
                 continue
+
             downloaded = get(row, "Downloaded").upper()
-            status_u = status.upper()
+            status_u = (status or "").upper()
 
             terminal = {
                 "DOWNLOADED",
@@ -161,9 +172,12 @@ class SyncManager:
             if status_u in terminal:
                 continue
 
-            # treat blank as pending
             if status_u in ("", "PENDING"):
-                out.append(TaskRow(row_index=i, url=url, status=status))
+                out.append(TaskRow(row_index=i, url=url, status=status, discovery_query=dq))
+
+            if len(out) >= limit:
+                break
+
         return out
 
     def claim(self, tasks: list[TaskRow], device_name: str) -> list[TaskRow]:
@@ -216,21 +230,14 @@ class SyncManager:
             self.client.batch_update_values(self.spreadsheet_id, updates)
 
     def try_lock_url(self, row_index: int, device_name: str) -> bool:
-        """
-        Simple lock: if URL Lock cell is empty, set it to device_name.
-        Returns True if lock acquired or already owned by device.
-        """
         values = self.fetch_all()
         header = values[0]
         hmap = build_header_map(header)
 
         lock_idx = hmap.get(_norm("URL Lock"))
         if lock_idx is None:
-            # If column not present, can't lock; behave like "no lock"
             return True
 
-        # Read current lock value from the in-memory fetched data (values)
-        # row_index is 1-based sheet row; values list is 0-based with header at 0.
         row = values[row_index - 1] if row_index - 1 < len(values) else []
         current = ""
         if lock_idx < len(row):
@@ -238,10 +245,8 @@ class SyncManager:
 
         if current and current != device_name:
             return False
-
         if current == device_name:
             return True
 
-        # acquire lock
         self.update_fields(row_index, {"URL Lock": device_name})
         return True

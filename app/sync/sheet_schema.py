@@ -18,7 +18,30 @@ COLUMNS = [
     "Device name",
     "Discovered By",
     "Relevance Reason",
-    "URL Lock"
+    "URL Lock",
+
+    "Discovery Query",
+
+    # ✅ YouTube/Platform rich metadata (ML-friendly)
+    "Upload Date",          # e.g. 20250921 (YYYYMMDD)
+    "Timestamp",            # epoch seconds if available
+    "Uploader",
+    "Uploader ID",
+    "Channel",
+    "Channel ID",
+    "Channel URL",
+    "Uploader URL",
+
+    "View Count",
+    "Like Count",
+    "Comment Count",
+
+    "Categories",
+    "Tags",
+
+    # Descriptive signals
+    "Description",          # truncated
+    "Webpage URL",          # canonical url from extractor (if different)
 ]
 
 def _norm(s: str) -> str:

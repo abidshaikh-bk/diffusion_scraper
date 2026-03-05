@@ -252,7 +252,7 @@ async def main():
             await wait_for_internet(logger=logger)
 
             added = await retry_with_backoff(
-                lambda: asyncio.to_thread(sync.append_pending_urls, chunk, device),
+                lambda: asyncio.to_thread(sync.append_pending_urls, chunk, device, q),
                 logger=logger,
                 operation_name=f"sheet_append:{platform}",
                 retries=None,  # infinite (safe)

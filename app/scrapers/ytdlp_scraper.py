@@ -129,7 +129,7 @@ async def fetch_metadata(url: str) -> VideoMetadata:
             url=url,
             title=info.get("title") or "",
             description=info.get("description") or "",
-            language=info.get("language") or "",
+            language=info.get("language") or info.get("audio_lang") or "",
             video_type=info.get("ext") or "",
             quality=_quality_from_info(info),
             duration=seconds_to_hhmmss(duration_sec),
@@ -138,6 +138,22 @@ async def fetch_metadata(url: str) -> VideoMetadata:
             channel=info.get("channel") or info.get("uploader") or "",
             categories=[str(x) for x in categories if x],
             tags=[str(x) for x in tags if x],
+
+            upload_date=info.get("upload_date") or "",
+            timestamp=info.get("timestamp") if isinstance(info.get("timestamp"), int) else None,
+
+            uploader_id=info.get("uploader_id") or "",
+            channel_id=info.get("channel_id") or "",
+            uploader_url=info.get("uploader_url") or "",
+            channel_url=info.get("channel_url") or "",
+
+            webpage_url=info.get("webpage_url") or info.get("original_url") or url,
+
+            view_count=info.get("view_count") if isinstance(info.get("view_count"), int) else None,
+            like_count=info.get("like_count") if isinstance(info.get("like_count"), int) else None,
+            comment_count=info.get("comment_count") if isinstance(info.get("comment_count"), int) else None,
+
+            country=info.get("uploader_country") or info.get("country") or "",
         )
 
     # ✅ YouTube: keep your fallback strategy (we’ll ignore for now)
@@ -155,6 +171,7 @@ async def fetch_metadata(url: str) -> VideoMetadata:
             duration_sec = info.get("duration") if isinstance(info.get("duration"), int) else None
             categories = info.get("categories") or []
             tags = info.get("tags") or []
+            
 
             return VideoMetadata(
                 url=url,
@@ -169,6 +186,10 @@ async def fetch_metadata(url: str) -> VideoMetadata:
                 channel=info.get("channel") or info.get("uploader") or "",
                 categories=[str(x) for x in categories if x],
                 tags=[str(x) for x in tags if x],
+                width=info.get("width"),
+                height=info.get("height"),
+                fps=info.get("fps"),
+                resolution=info.get("resolution") or "",
             )
 
         except Exception as e:

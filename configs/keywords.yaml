@@ -136,12 +136,9 @@ exclude_keywords:
   - remix
   - lyrics
   - dance
-  - movie
-  - film
   - episode
   - full episode
   - gameplay
-  - podcast
 
   # News / commentary (usually not training)
   - news

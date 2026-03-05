@@ -188,6 +188,15 @@ async def process_one(
             retries=8,  # avoids hammering on rate-limit
         )
 
+        def _as_int_or_blank(v):
+            return v if isinstance(v, int) else ""
+
+        def _join_trim(items, limit=900):
+            s = ", ".join([str(x) for x in (items or []) if x])
+            return s[:limit]
+
+        desc_trim = (meta.description or "")[:1500]
+
         # keep registry key as truth for cooldown/rotation; sheet Source can be meta.platform
         sync.update_fields(row_index, {
             "Title": meta.title,
@@ -195,9 +204,32 @@ async def process_one(
             "Video Type": meta.video_type,
             "Quality": meta.quality,
             "Duration": meta.duration,
-            "Source": getattr(meta, "platform", "") or pk,
+            "Video Country": getattr(meta, "country", "") or "",
+            "Source": meta.platform,
             "Device name": device,
             "Status": "METADATA_DONE",
+
+            # ✅ NEW fields
+            "Upload Date": getattr(meta, "upload_date", "") or "",
+            "Timestamp": _as_int_or_blank(getattr(meta, "timestamp", None)),
+
+            "Uploader": getattr(meta, "uploader", "") or "",
+            "Uploader ID": getattr(meta, "uploader_id", "") or "",
+            "Uploader URL": getattr(meta, "uploader_url", "") or "",
+
+            "Channel": getattr(meta, "channel", "") or "",
+            "Channel ID": getattr(meta, "channel_id", "") or "",
+            "Channel URL": getattr(meta, "channel_url", "") or "",
+
+            "View Count": _as_int_or_blank(getattr(meta, "view_count", None)),
+            "Like Count": _as_int_or_blank(getattr(meta, "like_count", None)),
+            "Comment Count": _as_int_or_blank(getattr(meta, "comment_count", None)),
+
+            "Categories": _join_trim(getattr(meta, "categories", [])),
+            "Tags": _join_trim(getattr(meta, "tags", [])),
+
+            "Description": desc_trim,
+            "Webpage URL": getattr(meta, "webpage_url", "") or "",
         })
 
         logger.info(f"Metadata extracted: {meta.title}")
